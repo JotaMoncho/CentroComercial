@@ -8,10 +8,23 @@
 <body>
     <header>
         <h1>Centro de Ocio Oasiz - Registro</h1>
-        <p>Regístrate para acceder a más ventajas y estar al día de las novedades</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Portada</a></li>
+                <li><a href="tiendas.html">Tiendas</a></li>
+                <li><a href="restaurantes.html">Restaurantes</a></li>
+                <li><a href="ocio.html">Ocio</a></li>
+                <li><a href="cines.html">Cine</a></li>
+                <li><a href="visitanos.html">Visítanos</a></li>
+                <li><a href="resgistro.html">Registro</a></li>
+                <li><a href="aviso-legal.html">Aviso Legal</a></li>
+                
+            </ul>
+        </nav>
     </header>
     
     <article>
+        <h4>Regístrate para acceder a más ventajas y estar al día de las novedades</h4>
         <div class="registro">
             <form action="http://www.cursos-diseno.es/mostrar.php"> 
                 <table>
@@ -32,8 +45,8 @@
                     </tr>
 
                     <tr>
-                        <td>Ciudad<strong class="obligatorio"> *</strong></td>
-                        <td><input type="text" name="Ciudad" placeholder="Madrid" required></td>
+                        <td>Dirección<strong class="obligatorio"> *</strong></td>
+                        <td><input type="text" name="Dirección" placeholder="Calle, nº, piso..." required></td>
                     </tr>
 
                     <tr>
@@ -42,13 +55,25 @@
                     </tr>
 
                     <tr>
+                        <td>Dirección de correo electrónico<strong class="obligatorio"> *</strong></td>
+                        <td><input type="email" name="Mail" placeholder="ejemplo@ejgmail.com" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Confirma el correo electrónico<strong class="obligatorio"> *</strong></td>
+                        <td><input type="email" name="Mail" placeholder="ejemplo@ejgmail.com" required></td>
+                    </tr>
+
+                    <tr>
                         <td>Teléfono<strong class="obligatorio"> *</strong></td>
                         <td><input type="text" name="Teléfono" placeholder="+34 ... ..." required></td>
                     </tr>
 
                     <tr>
-                        <td>Dirección de correo electrónico<strong class="obligatorio"> *</strong></td>
-                        <td><input type="email" name="Mail" placeholder="ejemplo@ejgmail.com" required></td>
+                        <td>Comentarios</td>
+                        <td>
+                            <textarea name="comentarios" class="grande" rows="5" required></textarea>
+                        </td>
                     </tr>
 
                     <tr>
