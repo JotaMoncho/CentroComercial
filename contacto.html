@@ -7,15 +7,75 @@
 </head>
 <body>
     <header>
-        <h1>Contacto</h1>
+        <h1>Centro de Ocio Oasiz - Registro</h1>
+        <p>Regístrate para acceder a más ventajas y estar al día de las novedades</p>
     </header>
     
     <article>
+        <div class="registro">
+            <form action="http://www.cursos-diseno.es/mostrar.php"> 
+                <table>
+                    <tr>
+                        <td> 
+                            <h3 class="titulo">Datos de registro</h3>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Nombre<strong class="obligatorio"> *</strong></td>
+                        <td><input type="text" name="Nombre" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Apellidos<strong class="obligatorio"> *</strong></td>
+                        <td><input type="text" name="Apellidos" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ciudad<strong class="obligatorio"> *</strong></td>
+                        <td><input type="text" name="Ciudad" placeholder="Madrid" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Código Postal<strong class="obligatorio"> *</strong></td>
+                        <td><input type="text" name="Código Postal" maxlength="5" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Teléfono<strong class="obligatorio"> *</strong></td>
+                        <td><input type="text" name="Teléfono" placeholder="+34 ... ..." required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Dirección de correo electrónico<strong class="obligatorio"> *</strong></td>
+                        <td><input type="email" name="Mail" placeholder="ejemplo@ejgmail.com" required></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="Acepta" value="Si" required>
+                            Acepto las <span>condiciones</span><strong> *</strong>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><strong class="obligatorio">* Campos obligatorios</strong></td>
+                    </tr>
+
+                </table>
+
+                <p class="boton">
+                    <input type="hidden" name="Destinatario" value="slacalr@alumnos.nebrija.es">
+                    <input type="submit" value="Suscribirme">
+                </p>
+            </form>
+        </div>
 
     </article>
 
-    <footer>
-
+    <footer class="footer">
+        <p>© 2025 Oasiz Madrid</p>
     </footer>
 </body>
 </html>
