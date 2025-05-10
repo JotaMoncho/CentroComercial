@@ -32,4 +32,8 @@ body {
 
 /* REGISTRO */
 
+.obligatorio {
+    color: red;
+}
+
 /* AVISO LEGAL */
