@@ -3,3 +3,8 @@ img {
     height: 50%;
 }
 
+.restaurante-imagen{
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+
