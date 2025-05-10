@@ -1,5 +1,27 @@
-img {
-    width: 40%;
-    height: 50%;
+
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Quicksand:wght@300..700&family=Scope+One&display=swap');
+
+* {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
+
+/* PORTADA - INDEX */
+
+/* TIENDAS */
+
+/* RESTAURANTES */
+
+/* OCIO */
+
+/* CINE */
+
+/* VISITANOS */
+
+/* REGISTRO */
+
+/* AVISO LEGAL */
