@@ -1,8 +1,27 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Quicksand:wght@300..700&family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Quicksand:wght@300..700');
+/*font-family: 'Delius Swash Caps'; / font-family: 'Noto Sans'; / font-family: 'Nunito'; / font-family: 'Oooh Baby'; / font-family: 'Quicksand';*/
 
 * {
     box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Oooh Baby', sans-serif;
+    font-weight: bold 400;
+}
+
+h4, h5, h6 {
+    font-family: 'Oooh Baby', sans-serif;
+    font-weight: bold 300;
+}
+
+article, div {
+    font-family: 'Quicksand', sans-serif;
+}
+
+artcile, div p {
+    color: lightslategray;
 }
 
 .restaurante-imagen{
@@ -19,6 +38,10 @@ body {
 
 
 /* PORTADA - INDEX */
+
+.carousel-bg {
+    background-color: #D9D7BD;
+}
 
 .carousel-item img {
   max-height: 500px;
