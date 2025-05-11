@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Quicksand:wght@300..700');
 /*font-family: 'Delius Swash Caps'; / font-family: 'Noto Sans'; / font-family: 'Nunito'; / font-family: 'Oooh Baby'; / font-family: 'Quicksand';*/
 
@@ -6,7 +5,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1, h2, h3, strong {
     font-family: 'Oooh Baby', sans-serif;
     font-weight: bold 400;
 }
@@ -54,9 +53,44 @@ body {
 
 /* OCIO */
 
+.logo-establecimiento {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.establecimiento {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.establecimiento h3 {
+    margin-top: 1rem;
+    color: #333;
+}
+
+.establecimiento .horario,
+.establecimiento .telefono {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.establecimiento .descripcion {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
 /* CINE */
 
 /* VISITANOS */
+
+.welcome-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 /* REGISTRO */
 
@@ -65,3 +99,36 @@ body {
 }
 
 /* AVISO LEGAL */
+
+/* Logo styling for establishments */
+.logo-container {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 120px;
+    max-width: 95%;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+/* Smaller logo variant */
+.logo-container.small {
+    height: 100px;
+}
+
+.logo-container.small img {
+    max-height: 80px;
+    max-width: 80%;
+}
+
+.modal-text {
+    color: #000000 !important;
+}
+
+.modal-text p, .modal-text li {
+    color: #000000 !important;
+}
