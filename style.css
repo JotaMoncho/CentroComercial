@@ -20,6 +20,11 @@ body {
 
 /* PORTADA - INDEX */
 
+.carousel-item img {
+  max-height: 500px;
+  object-fit: scale-down;
+}
+
 /* TIENDAS */
 
 /* RESTAURANTES */
