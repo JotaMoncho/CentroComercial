@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, strong {
+h1, h2, h3 {
     font-family: 'Oooh Baby', sans-serif;
     font-weight: bold 400;
 }
@@ -15,7 +15,7 @@ h4, h5, h6 {
     font-weight: bold 300;
 }
 
-article, div {
+article, div, input, label {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -23,14 +23,6 @@ artcile, div p {
     color: lightslategray;
 }
 
-.restaurante-imagen{
-    border-radius: 0 !important;
-    margin-bottom: 0;
-}
-.restaurante-imagen{
-    border-radius: 0 !important;
-    margin-bottom: 0;
-}
 body {
     margin: 0;
 }
@@ -49,7 +41,14 @@ body {
 
 /* TIENDAS */
 
+
 /* RESTAURANTES */
+
+.restaurante-imagen{
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+
 
 /* OCIO */
 
@@ -100,7 +99,8 @@ body {
 
 /* AVISO LEGAL */
 
-/* Logo styling for establishments */
+/* LOGOS ESTABLECIMIENTOS */
+
 .logo-container {
     height: 120px;
     display: flex;
@@ -115,7 +115,9 @@ body {
     padding: 1rem;
 }
 
-/* Smaller logo variant */
+
+/* VARIANTE PEQUEÑA LOGOS */
+
 .logo-container.small {
     height: 100px;
 }
