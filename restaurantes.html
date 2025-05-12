@@ -1,21 +1,151 @@
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>Restaurantes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="javascript.js"></script>
+  <title>Restaurantes</title>
 </head>
 <body>
-    <header>
-        <h1>Restaurantes</h1>
-    </header>
+
+<!-- Navegador -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Oasiz Madrid</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Portada</a></li>
+        <li class="nav-item"><a class="nav-link" href="tiendas.html">Tiendas</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="restaurantes.html">Restaurantes</a></li>
+        <li class="nav-item"><a class="nav-link" href="ocio.html">Ocio</a></li>
+        <li class="nav-item"><a class="nav-link" href="cines.html">Cine</a></li>
+        <li class="nav-item"><a class="nav-link" href="visitanos.html">Visítanos</a></li>
+        <li class="nav-item"><a class="nav-link" href="registro.html">Registro</a></li>
+        <li class="nav-item"><a class="nav-link" href="aviso-legal.html">Aviso Legal</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Cabecera -->
+<header class="bg-light py-5 text-center">
+  <div class="container">
+    <h1 class="display-5 fw-bold text-primary">Restaurantes en Oasiz Madrid</h1>
+    <p class="lead">Descubre una gran variedad de opciones gastronómicas para todos los gustos</p>
+  </div>
+</header>
+
+<!-- Restaurantes -->
+<article class="container py-5">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
     
-    <article>
+    <!-- Brasa y Leña -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="https://brasaylena.com/restaurantes/category/madrid-1/" target="_blank">
+          <img src="imagenes/restaurantes/logos/restaurante1.png" class="card-img-top p-3" style="height: 80px; object-fit: contain;" alt="Logo Brasa y Leña">
+        </a>
+        <img src="imagenes/restaurantes/restaurante1.jpg" class="card-img-top restaurante-imagen" alt="Brasa y Leña">
+        <div class="card-body">
+          <h5 class="card-title">Brasa y Leña</h5>
+          <p class="card-text">Auténtica experiencia de rodizio brasileño con carnes a la espada.</p>
+          <p class="card-text"><small class="text-muted">Disfruta de un buffet libre servido en mesa, ideal para grupos y familias que buscan variedad y sabor intenso.</small></p>
+          <a href="https://brasaylena.com/restaurantes/category/madrid-1/" target="_blank" class="btn btn-outline-primary">Visitar web</a>        
+        </div>
+      </div>
+    </div>
 
-    </article>
+    <!-- La Mafia se Sienta a la Mesa -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="https://lamafia.es/" target="_blank">
+          <img src="imagenes/restaurantes/logos/restaurante2.png" class="card-img-top p-3" style="height: 80px; object-fit: contain;" alt="Logo La Mafia">
+        </a>
+        <img src="imagenes/restaurantes/restaurante2.jpg" class="card-img-top restaurante-imagen" alt="La Mafia">
+        <div class="card-body">
+          <h5 class="card-title">La Mafia se Sienta a la Mesa</h5>
+          <p class="card-text">Cocina ítalo-mediterránea con ambiente elegante y moderno.</p>
+          <p class="card-text"><small class="text-muted">Ideal para cenas románticas o comidas de negocio. Especialidad en pasta fresca y risottos gourmet.</small></p>
+          <a href="https://lamafia.es/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+        </div>
+      </div>
+    </div>
 
-    <footer>
+    <!-- Grosso Napoletano -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="https://www.grossonapoletano.com/" target="_blank">
+          <img src="imagenes/restaurantes/logos/restaurante3.png" class="card-img-top p-3" style="height: 80px; object-fit: contain;" alt="Logo Grosso Napoletano">
+        </a>
+        <img src="imagenes/restaurantes/restaurante3.jpg" class="card-img-top restaurante-imagen" alt="Grosso Napoletano">
+        <div class="card-body">
+          <h5 class="card-title">Grosso Napoletano</h5>
+          <p class="card-text">Una de las mejores pizzas napolitanas de España.</p>
+          <p class="card-text"><small class="text-muted">Pizza artesanal cocinada en horno de piedra con ingredientes auténticamente italianos.</small></p>
+          <a href="https://www.grossonapoletano.com/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+        </div>
+      </div>
+    </div>
 
-    </footer>
+    <!-- 100 Montaditos -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="https://spain.100montaditos.com/es/" target="_blank">
+          <img src="imagenes/restaurantes/logos/restaurante4.png" class="card-img-top p-3" style="height: 80px; object-fit: contain;" alt="Logo 100 Montaditos">
+        </a>
+        <img src="imagenes/restaurantes/restaurante4.jpg" class="card-img-top restaurante-imagen" alt="100 Montaditos">
+        <div class="card-body">
+          <h5 class="card-title">100 Montaditos</h5>
+          <p class="card-text">La clásica cadena española de montaditos y tapas.</p>
+          <p class="card-text"><small class="text-muted">Perfecto para picar entre amigos con promociones especiales como el “Euromanía”.</small></p>
+          <a href="https://spain.100montaditos.com/es/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Taco Bell -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="https://tacobell.es/es/inicio" target="_blank">
+          <img src="imagenes/restaurantes/logos/restaurante5.png" class="card-img-top p-3" style="height: 80px; object-fit: contain;" alt="Logo Taco Bell">
+        </a>
+        <img src="imagenes/restaurantes/restaurante5.jpg" class="card-img-top restaurante-imagen" alt="Taco Bell">
+        <div class="card-body">
+          <h5 class="card-title">Taco Bell</h5>
+          <p class="card-text">Comida rápida de inspiración mexicana.</p>
+          <p class="card-text"><small class="text-muted">Tacos, burritos, quesadillas y menús adaptados a todos los gustos, incluyendo opciones vegetarianas.</small></p>
+          <a href="https://tacobell.es/es/inicio" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- VIPS Smart -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="https://www.vips.es/" target="_blank">
+          <img src="imagenes/restaurantes/logos/restaurante6.png" class="card-img-top p-3" style="height: 80px; object-fit: contain;" alt="Logo VIPS Smart">
+        </a>
+        <img src="imagenes/restaurantes/restaurante6.jpg" class="card-img-top restaurante-imagen" alt="VIPS Smart">
+        <div class="card-body">
+          <h5 class="card-title">VIPS Smart</h5>
+          <p class="card-text">Restaurante casual para desayunos, hamburguesas y más.</p>
+          <p class="card-text"><small class="text-muted">Ambiente informal con platos clásicos, carta variada y opción de pedidos rápidos.</small></p>
+          <a href="https://www.vips.es/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-4">
+  <p class="mb-1">&copy; 2025 Oasiz Madrid</p>
+</footer>
+
 </body>
 </html>
