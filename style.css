@@ -47,12 +47,28 @@ body {
 
 @media (min-width: 768px) {
     .video-portada {
-        height: 600px;
+        height: auto;
     }
 }
 
 
 /* TIENDAS */
+
+.imag-tiendas {
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+
+#adidasLogo, #nikeLogo, #pullLogo, 
+#mangoLogo, #springLogo, #fnacLogo {
+    height: 80px; 
+    object-fit: contain;
+}
+
+#imagenTienda{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
 
 
 
