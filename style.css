@@ -54,15 +54,19 @@ body {
 
 /* TIENDAS */
 
+.imag-tiendas {
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+
 #adidasLogo, #nikeLogo, #pullLogo, 
 #mangoLogo, #springLogo, #fnacLogo {
     height: 80px; 
     object-fit: contain;
 }
 
-.imag-tiendas {
+#imagenTienda{
     aspect-ratio: 16/9;
-    height: 100px;
     object-fit: cover;
 }
 

@@ -35,27 +35,83 @@
 <!-- Cabecera -->
 <header class="bg-light py-5 text-center">
   <div class="container">
-    <h1 class="display-5 fw-bold text-dark mb-3">Tiendas del Centro Comercial Oasis</h1>
+    <h1 class="display-5 fw-bold text-dark">Tiendas del Centro Comercial Oasis</h1>
     <p class="lead">Haz clic en los logos para obtener más información sobre cada tienda.</p>
   </div>
 </header>
 
-<article>
-  <!-- Tiendas -->
-  <div class="container py-4">
+<!-- TIENDAS -->
+<article class="container py-5">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
 
   <!-- Adidas -->
-    <div class="col">
+    <div class="col mb-4">
       <div class="card h-100 text-center">
-        <button type="button" class="btn p-0 border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#modalAdidas">
+        <a data-bs-toggle="modal" data-bs-target="#modalAdidas">
           <img src="imagenes/logos/Adidas.webp" class="card-img-top p-3" id="adidasLogo" alt="Adidas Logo">
-        </button>
-        <img src="imagenes/tiendas/Adidas_tienda.webp" class="img-fluid mb-3 imag-tiendas" alt="Tienda Adidas">
+        </a>
+        <img src="imagenes/tiendas/Adidas_tienda.webp" class="imag-tiendas" id="imagenTienda" alt="Tienda Adidas">
       </div>
     </div>
 
-  <!-- Modal Adidas -->
+
+  <!-- Nike -->
+    <div class="col mb-4">
+      <div class="card h-100 text-center">
+        <a data-bs-toggle="modal" data-bs-target="#modalNike">
+          <img src="imagenes/logos/Nike.webp" class="card-img-top p-3" id="nikeLogo" alt="Nike Logo">
+        </a>
+        <img src="imagenes/tiendas/Nike_tiendas.webp" class="imag-tiendas" id="imagenTienda" alt="Tienda Nike">
+      </div>
+    </div>
+
+  <!-- Pull&Bear -->
+    <div class="col mb-4">
+      <div class="card h-100 text-center">
+        <a data-bs-toggle="modal" data-bs-target="#modalPull&Bear">
+          <img src="imagenes/logos/Pull&Bear.webp" class="card-img-top p-3" id="pullLogo" alt="Pull&Bear Logo">
+        </a>
+        <img src="imagenes/tiendas/PullBear_tiendas.jpeg" class="imag-tiendas" id="imagenTienda" alt="Tienda Pull&Bear">
+      </div>
+    </div>
+
+  <!-- Mango -->
+      <div class="col mb-4">
+        <div class="card h-100 text-center">
+          <a data-bs-toggle="modal" data-bs-target="#modalMango">
+            <img src="imagenes/logos/Mango.webp" class="card-img-top p-3" id="mangoLogo" alt="Mango Logo">
+          </a>
+          <img src="imagenes/tiendas/Mango_tiendas.webp" class="imag-tiendas" id="imagenTienda" alt="Tienda Mango">
+        </div>
+      </div>
+
+
+        <!-- Springfield --> 
+      <div class="col mb-4">
+        <div class="card h-100 text-center">
+          <a data-bs-toggle="modal" data-bs-target="#modalSpringfield">
+            <img src="imagenes/logos/Springfield.webp" class="card-img-top p-3" id="springLogo" alt="Springfield Logo">
+          </a>
+          <img src="imagenes/tiendas/Sprinfield_tiendas.jpg" class="imag-tiendas" id="imagenTienda" alt="Tienda Springfield">
+        </div>
+      </div>
+
+
+        <!-- FNAC --> 
+      <div class="col mb-4">
+        <div class="card h-100 text-center">
+          <a data-bs-toggle="modal" data-bs-target="#modalFnac">
+            <img src="imagenes/logos/Fnac.webp" class="card-img-top p-3" id="fnacLogo" alt="FNAC Logo">
+          </a>
+          <img src="imagenes/tiendas/FNAC_tiendas.webp" class="imag-tiendas" id="imagenTienda" alt="Tienda FNAC">
+        </div>
+      </div>
+
+  </article>
+
+<!-- MODALES -->
+
+  <!-- Adidas -->
     <div class="modal fade" id="modalAdidas" aria-labelledby="modalAdidasLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
@@ -80,17 +136,7 @@
       </div>
     </div>
 
-  <!-- Nike -->
-    <div class="col">
-      <div class="card h-100 text-center">
-        <button type="button" class="btn p-0 border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#modalAdidas">
-          <img src="imagenes/logos/Nike.webp" class="card-img-top p-3" id="nikeLogo" alt="Nike Logo">
-        </button>
-        <img src="imagenes/tiendas/Nike_tiendas.webp" class="img-fluid mb-3 imag-tiendas" alt="Tienda Nike">
-      </div>
-    </div>
-
-  <!-- Modal Nike -->
+      <!-- Nike -->
     <div class="modal fade" id="modalNike" aria-labelledby="modalNikeLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
@@ -116,17 +162,7 @@
       </div>
     </div>
 
-  <!-- Pull&Bear -->
-    <div class="col">
-      <div class="card h-100 text-center">
-        <button type="button" class="btn p-0 border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#modalPull&Bear">
-          <img src="imagenes/logos/Pull&Bear.webp" class="card-img-top p-3" id="pullLogo" alt="Pull&Bear Logo">
-        </button>
-        <img src="imagenes/tiendas/PullBear_tiendas.jpeg" class="img-fluid mb-3 imag-tiendas" alt="Tienda Pull&Bear">
-      </div>
-    </div>
-
-  <!-- Modal Pull&Bear -->
+      <!-- Pull&Bear -->
     <div class="modal fade" id="modalPull&Bear" aria-labelledby="modalPull&BearLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
@@ -152,93 +188,78 @@
       </div>
     </div>
 
-
-<!-- CAMBIAR DESDE AQUÍ -->
-
-        <!-- Mango --> 
-      <div class="col">
-        <div class="card h-100">
-          <button class="btn p-0 border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMango">
-            <img src="imagenes/logos/Mango.webp" class="card-img-top p-3" id="mangoLogo" alt="Mango Logo">
-          </button>
-          <div class="collapse" id="collapseMango">
-            <img src="imagenes/tiendas/Mango_tiendas.webp" class="card-img-top imag-tiendas" alt="Tienda Mango">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Horarios</h5>
-              <p class="card-text">
-                <strong>Lunes a Sábados: 10:00 - 22:00</strong><br>
-                <strong>Domingos y Festivos: 11:00 - 21:00</strong><br><br>
-                Mango, la marca de moda española más conocida internacionalmente está en plena revolución. La marca, cuyo objetivo siempre ha sido vestir a la mujer para cualquier momento del día según las últimas tendencias y con una excelente relación precio-calidad, hoy aumenta los esfuerzos para ofrecer una elección muy actual. Mango aprovisiona su tienda cada quince días con ropa de las últimas tendencias del momento para responder a las exigencias del mercado. La rapidez e inmediatez son la base de la nueva estrategia de Mango.
-                <br><br><strong>Move Forward.</strong>
-              </p>
-              <a href="https://shop.mango.com/es" target="_blank" class="btn btn-outline-primary">Visitar sitio web</a>
-            </div>
+    <!-- Mango -->
+    <div class="modal fade" id="modalMango" aria-labelledby="modalMangoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" id="modalMangoLabel">Mango</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <h5 class="card-title fw-bold mb-3">Horarios</h5>
+            <p>
+              Lunes a Sábados: 10:00 - 22:00<br>
+              Domingos y Festivos: 11:00 - 21:00
+            </p>
+            <p>
+              Mango, la reconocida marca de moda española, está atravesando una transformación centrada en la rapidez y la actualización constante.
+              Su objetivo sigue siendo vestir a la mujer con las últimas tendencias y buena relación calidad-precio, pero ahora refuerza su estrategia 
+              reponiendo sus tiendas cada quince días para responder ágilmente a las demandas del mercado.
+            </p>
+            <a href="https://shop.mango.com/es" target="_blank" class="btn btn-outline-primary">Visitar sitio web</a>
           </div>
         </div>
       </div>
-
-        <!-- Springfield --> 
-      <div class="col">
-        <div class="card h-100">
-          <button class="btn p-0 border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpringfield">
-            <img src="imagenes/logos/Springfield.webp" class="card-img-top p-3 imag-tiendas" id="springLogo" alt="Springfield Logo">
-          </button>
-          <div class="collapse" id="collapseSpringfield">
-            <img src="imagenes/tiendas/Sprinfield_tiendas.jpg" class="card-img-top imag-tiendas" alt="Tienda Springfield">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Horarios</h5>
-              <p class="card-text">
-                <strong>Lunes a Domingos: 10:00 - 22:00</strong><br><br>
-                Nacidos en 1988 con el propósito de vestir a hombres jóvenes, urbanos y cosmopolitas, Springfield también se dirige a mujeres desde el 2006. Hoy en día, Springfield trabaja con un equipo de más de 2.000 personas que cuidan el diseño, la fabricación y la venta de las prendas hasta el último detalle, lo que los ha llevado a ocupar una posición de liderazgo en el sector textil.
-                <br><br><strong>FITS YOUR LIFESTYLE. RESPECTS YOUR PERSONALITY</strong>
-              </p>
-              <a href="https://myspringfield.com/es/es" target="_blank" class="btn btn-outline-primary">Visitar sitio web</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-        <!-- FNAC --> 
-      <div class="col">
-        <div class="card h-100">
-          <button class="btn p-0 border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFnac">
-            <img src="imagenes/logos/Fnac.webp" class="card-img-top p-3" id="fnacLogo" alt="FNAC Logo">
-          </button>
-          <div class="collapse" id="collapseFnac">
-            <img src="imagenes/tiendas/FNAC_tiendas.webp" class="card-img-top imag-tiendas" alt="Tienda FNAC">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Horarios</h5>
-              <p class="card-text">
-                <strong>Lunes a Domingos: 10:00 - 22:00</strong><br><br>
-                Te propone miles de libros, artículos de papelería, vídeos, audio, videojuegos, artículos de sonido, fotografía, microinformática, telefonía, objetos conectados, juegos y juguetes, pequeños electrodomésticos y productos para la casa. Disfruta de los rincones dedicados a Apple, Samsung o Microsoft para descubrir las demostraciones de los expertos y probar las últimas novedades. Descubre también Fnac Espectáculos con una amplia selección de eventos en todo el país.
-                <br><br><strong>Te falta Fnac.</strong>
-              </p>
-              <a href="https://www.fnac.es/" target="_blank" class="btn btn-outline-primary">Visitar sitio web</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
 
-  <!-- Más tiendas -->
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <br><br>
-      <h2 class="display-6 fw-bold text-center mb-4">Descubre más tiendas</h2>
-        <div class="card text-center">
-          <div class="card-body">
-            <ul class="list-unstyled">
-              <li><a href="https://oasizmadrid.com/tiendas/belros" target="_blank">Belros</a></li>
-              <li><a href="https://oasizmadrid.com/tiendas/womensecret" target="_blank">Women'secret</a></li>
-              <li><a href="https://oasizmadrid.com/tiendas/movistar" target="_blank">Movistar</a></li>
-            </ul>
-            <a href="https://oasizmadrid.com/tiendas" target="_blank" class="btn btn-outline-primary mt-3">Ver todas las tiendas</a>
+    <!-- Springfield -->
+    <div class="modal fade" id="modalSpringfield" aria-labelledby="modalSpringfieldLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" id="modalSpringfieldLabel">Springfield</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <h5 class="card-title fw-bold mb-3">Horarios</h5>
+            <p>
+              Lunes a Domingos: 10:00 - 22:00
+            </p>
+            <p>
+              Springfield, nacida en 1988 para vestir a hombres jóvenes y urbanos, amplió su oferta a mujeres en 2006. Actualmente cuenta con un
+              equipo de más de 2.000 personas que cuidan cada etapa del proceso, desde el diseño hasta la venta, lo que le ha permitido posicionarse 
+              como líder en el sector textil
+            </p>
+            <a href="https://myspringfield.com/es/es" target="_blank" class="btn btn-outline-primary">Visitar sitio web</a>
           </div>
         </div>
+      </div>
     </div>
-  </div>
-</article>
+
+    <!-- Fnac -->
+    <div class="modal fade" id="modalFnac" aria-labelledby="modalFnacLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" id="modalFnacLabel">FNAC</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <h5 class="card-title fw-bold mb-3">Horarios</h5>
+            <p>
+              Lunes a Domingos: 10:00 - 22:00
+            </p>
+            <p>
+              Fnac ofrece una amplia variedad de productos, desde libros y artículos de papelería hasta tecnología, videojuegos, electrodomésticos 
+              y productos para el hogar. Cuenta con espacios dedicados a marcas como Apple, Samsung y Microsoft, donde se pueden probar las últimas 
+              novedades. Además, incluye Fnac Espectáculos, con una gran selección de eventos en todo el país.
+            </p>
+            <a href="https://www.fnac.es/" target="_blank" class="btn btn-outline-primary">Visitar sitio web</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
 <!-- Footer -->
 <footer class="bg-primary text-white text-center py-4">
