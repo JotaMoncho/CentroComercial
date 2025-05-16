@@ -1,18 +1,28 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Quicksand:wght@300..700&family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Quicksand:wght@300..700');
+/*font-family: font-family: 'Oooh Baby'; / font-family: 'Quicksand';*/
 
 * {
     box-sizing: border-box;
 }
 
-.restaurante-imagen{
-    border-radius: 0 !important;
-    margin-bottom: 0;
+h1, h2, h3 {
+    font-family: 'Oooh Baby', sans-serif;
+    font-weight: bold 400;
 }
-.restaurante-imagen{
-    border-radius: 0 !important;
-    margin-bottom: 0;
+
+h4, h5, h6 {
+    font-family: 'Oooh Baby', sans-serif;
+    font-weight: bold 300;
 }
+
+article, div, input, label {
+    font-family: 'Quicksand', sans-serif;
+}
+
+artcile, div p {
+    color: lightslategray;
+}
+
 body {
     margin: 0;
 }
@@ -20,16 +30,140 @@ body {
 
 /* PORTADA - INDEX */
 
+#galeriaCarouselPortada img {
+    width: 100%;
+    height: 600px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.video-portada {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .video-portada {
+        height: 600px;
+    }
+}
+
+
 /* TIENDAS */
+
 
 /* RESTAURANTES */
 
+.restaurante-imagen{
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+
+
 /* OCIO */
+
+.logo-establecimiento {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.establecimiento {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.establecimiento h3 {
+    margin-top: 1rem;
+    color: #333;
+}
+
+.establecimiento .horario,
+.establecimiento .telefono {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.establecimiento .descripcion {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
 
 /* CINE */
 
+.carousel-container {
+    background: #222; 
+    border-radius: 12px; 
+    padding: 1.5rem 0;
+}
+
+.carousel-prev, .carousel-next {
+    background:#0d6efd; 
+    color:white; 
+    border-radius:50%; 
+    width:48px; 
+    height:48px; 
+    left:10px;
+}
+
+.contenedor-cartelera {
+    border-radius: 18px; 
+    background: #f8f9fa;
+}
+
 /* VISITANOS */
+
+.welcome-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 /* REGISTRO */
 
+.obligatorio {
+    color: red;
+}
+
 /* AVISO LEGAL */
+
+/* LOGOS ESTABLECIMIENTOS */
+
+.logo-container {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 120px;
+    max-width: 95%;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+
+/* VARIANTE PEQUEÑA LOGOS */
+
+.logo-container.small {
+    height: 100px;
+}
+
+.logo-container.small img {
+    max-height: 80px;
+    max-width: 80%;
+}
+
+.modal-text {
+    color: #000000 !important;
+}
+
+.modal-text p, .modal-text li {
+    color: #000000 !important;
+}

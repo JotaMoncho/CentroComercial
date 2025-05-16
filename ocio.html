@@ -3,8 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title>Ocio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript.js"></script>
+    <title>Ocio</title>
 </head>
 <body>
 
@@ -20,82 +22,127 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Portada</a></li>
           <li class="nav-item"><a class="nav-link" href="tiendas.html">Tiendas</a></li>
           <li class="nav-item"><a class="nav-link" href="restaurantes.html">Restaurantes</a></li>
-          <li class="nav-item"><a class="nav-link" href="ocio.html">Ocio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="ocio.html">Ocio</a></li>
           <li class="nav-item"><a class="nav-link" href="cines.html">Cine</a></li>
           <li class="nav-item"><a class="nav-link" href="visitanos.html">Visítanos</a></li>
           <li class="nav-item"><a class="nav-link" href="registro.html">Registro</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="aviso-legal.html">Aviso Legal</a></li>
+          <li class="nav-item"><a class="nav-link" href="aviso-legal.html">Aviso Legal</a></li>
         </ul>
       </div>
     </div>
   </nav>
     
-    <article>
-        <section class="la-playa">
-            <h2>La Playa</h2>
-            <div class="establecimiento">
-                <h3>El Eden Baobad</h3>
-                <p class="horario">Horario: Domingo a Jueves: 12:00 – 01:00<br>Viernes y Sábados: 12:00 – 02:30</p>
-                <p class="telefono">Teléfono: 911977896</p>
-                <p class="descripcion">El Edén de Baobad es un punto de encuentro en Madrid para disfrutar de su tiempo libre y relajarse con sus amigos en un ambiente muy especial.<br>
-                Gran variedad de cocteles y batidos de creación propia. Especializados en coctelería Tiki. Para los más selectos este lugar está hecho para disfrutar de los mejores Gin-Tonic Premium.<br>
-                Acompáñalo si te gusta con una aromática y exclusiva Shisha.</p>
-                <a href="https://oasizmadrid.info/El-Edén-de-Baobad-Reserva" target="_blank">Visitar página web</a>
+    <article class="container py-5">
+        <!-- La Playa Section -->
+        <h2 class="text-center mb-4 display-6 fw-bold text-dark">La Playa</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://oasizmadrid.info/El-Edén-de-Baobad-Reserva" target="_blank" class="logo-container small">
+                        <img src="imagenes/logos/ElEden.webp" alt="Logo El Edén de Baobad">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">Horario: Domingo a Jueves: 12:00 – 01:00<br>Viernes y Sábados: 12:00 – 02:30</small></p>
+                        <p class="card-text">El Edén de Baobad es un punto de encuentro en Madrid para disfrutar de su tiempo libre y relajarse con sus amigos en un ambiente muy especial.<br>
+                        Gran variedad de cocteles y batidos de creación propia. Especializados en coctelería Tiki. Para los más selectos este lugar está hecho para disfrutar de los mejores Gin-Tonic Premium.<br>
+                        Acompáñalo si te gusta con una aromática y exclusiva Shisha.</p>
+                        <a href="https://oasizmadrid.info/El-Edén-de-Baobad-Reserva" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
 
-        <section class="el-paseo">
-            <h2>El Paseo</h2>
-            <div class="establecimiento">
-                <h3>Home Run Show</h3>
-                <p class="horario">Horario: Lunes a Jueves: 12:00 – 22:00<br>Viernes y Sábado: 12:00 – 00:00<br>Domingo: 12:00 – 23:00</p>
-                <p class="telefono">Teléfono: 614315332</p>
-                <p class="descripcion">Home Run Show representa la nueva generación del entretenimiento deportivo, combinando tecnología de vanguardia con experiencias multi-sensoriales para crear un concepto innovador de diversión social, familiar y corporativa.</p>
-                <a href="https://homerunshow.com/" target="_blank">Visitar página web</a>
-            </div>
-
-            <div class="establecimiento">
-                <h3>Motocrossity</h3>
-                <p class="horario">Horario: Lunes a Domingo: 12:00 – 22:00</p>
-                <p class="telefono">Teléfono: 911977896</p>
-                <p class="descripcion">Vive la adrenalina del motocross en un entorno seguro y accesible, a pocos minutos del centro de Madrid, con motos eléctricas de última generación y sin necesidad de experiencia previa. Únete a la revolución de la movilidad sostenible mientras disfrutas de un circuito diseñado para todas las edades y niveles.</p>
-                <a href="https://www.motocrossity.com/" target="_blank">Visitar página web</a>
-            </div>
-        </section>
-
-        <section class="la-plaza">
-            <h2>La Plaza</h2>
-            <div class="establecimiento">
-                <h3>Bowling</h3>
-                <p class="horario">Horario: Lunes a Domingo: 12:00 – 22:00</p>
-                <p class="telefono">Teléfono: 911977896</p>
-                <p class="descripcion">Bowling es un lugar ideal para disfrutar de una partida de bolos con amigos o familiares, con un ambiente divertido y acogedor.</p>
-                <a href="https://www.bowling.com/" target="_blank">Visitar página web</a>
+        <!-- El Paseo Section -->
+        <h2 class="text-center mb-4 display-6 fw-bold text-dark">El Paseo</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://homerunshow.com/" target="_blank" class="logo-container">
+                        <img src="imagenes/logos/HMS.webp" alt="Logo Home Run Show">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">Horario: Lunes a Jueves: 12:00 – 22:00<br>Viernes y Sábado: 12:00 – 00:00<br>Domingo: 12:00 – 23:00</small></p>
+                        <p class="card-text">Home Run Show representa la nueva generación del entretenimiento deportivo, combinando tecnología de vanguardia con experiencias multi-sensoriales para crear un concepto innovador de diversión social, familiar y corporativa.</p>
+                        <a href="https://homerunshow.com/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="establecimiento">
-                <h3>Escape Room</h3>
-                <p class="horario">Horario: Lunes a Domingo: 12:00 – 22:00</p>
-                <p class="telefono">Teléfono: 911977896</p>
-                <p class="descripcion">Escape Room es una experiencia única donde podrás resolver acertijos y enigmas en un tiempo limitado, ideal para grupos de amigos o familiares.</p>
-                <a href="https://www.escaperoom.com/" target="_blank">Visitar página web</a>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://www.motocrossity.com/" target="_blank" class="logo-container">
+                        <img src="imagenes/logos/Motocrossity.webp" alt="Logo Motocrossity">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">Horario: Lunes a Domingo: 12:00 – 22:00</small></p>
+                        <p class="card-text">Vive la adrenalina del motocross en un entorno seguro y accesible, a pocos minutos del centro de Madrid, con motos eléctricas de última generación y sin necesidad de experiencia previa. Únete a la revolución de la movilidad sostenible mientras disfrutas de un circuito diseñado para todas las edades y niveles.</p>
+                        <a href="https://www.motocrossity.com/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- El Ocio Section -->
+        <h2 class="text-center mb-4 display-6 fw-bold text-dark">El Ocio</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://www.fitnesspark.es/club/torrejon-oasiz-2/" target="_blank" class="logo-container small">
+                        <img src="imagenes/logos/FitnessPark.png" alt="Logo Fitness Park">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">Horario: Lunes a Domingo: 6:00 – 1:00</small></p>
+                        <p class="card-text">Un gimnasio que está a la vanguardia de la tecnología deportiva.</p>
+                        <a href="https://www.fitnesspark.es/club/torrejon-oasiz-2/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="establecimiento">
-                <h3>Parque Infantil</h3>
-                <p class="horario">Horario: Lunes a Domingo: 12:00 – 22:00</p>
-                <p class="telefono">Teléfono: 911977896</p>
-                <p class="descripcion">El parque infantil es un espacio seguro y divertido para que los más pequeños disfruten mientras los adultos pueden relajarse.</p>
-                <a href="https://www.parqueinfantil.com/" target="_blank">Visitar página web</a>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://jumpyard.es/madrid/" target="_blank" class="logo-container">
+                        <img src="imagenes/logos/JumpYard.webp" alt="Logo Jump Yard">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">Horario: Lunes a Domingo: 10:00 – 22:00</small></p>
+                        <p class="card-text">Jump Yard es un parque de camas elásticas donde podrás disfrutar de actividades como dodgeball, basketball, foam pit y mucho más. Perfecto para todas las edades y una excelente forma de hacer ejercicio mientras te diviertes.</p>
+                        <a href="https://jumpyard.es/madrid/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+                    </div>
+                </div>
             </div>
-        </section>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://www.speedpark.es/" target="_blank" class="logo-container small">
+                        <img src="imagenes/logos/SpeedPark.png" alt="Logo Speed Park">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">Horario: Domingo a Jueves: 10:00 - 21:00<br>Viernes y Sábado: 10:00 - 23:00</small></p>
+                        <p class="card-text">Speed Park es un circuito de karts indoor donde podrás experimentar la emoción de la velocidad en un entorno seguro y controlado. Ideal para competiciones entre amigos o eventos corporativos.</p>
+                        <a href="https://www.speedpark.es/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://vrairsoftrevolution.com/" target="_blank" class="logo-container small">
+                        <img src="imagenes/logos/VR Airsoft.webp" alt="Logo VR Airsoft">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text"><small class="text-muted">Horario: Lunes a Domingo: 12:00 – 22:00</small></p>
+                        <p class="card-text">VR Airsoft combina la realidad virtual con el airsoft para crear una experiencia de juego inmersiva única. Equipado con la última tecnología en realidad virtual, podrás disfrutar de diferentes escenarios y modos de juego.</p>
+                        <a href="https://vrairsoftrevolution.com/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
   <!-- Footer -->
   <footer class="bg-primary text-white text-center py-4">
     <p class="mb-1">&copy; 2025 Oasiz Madrid</p>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
 </body>
 </html>

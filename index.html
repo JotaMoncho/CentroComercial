@@ -3,8 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript.js"></script>
     <title>Portada</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -17,123 +19,172 @@
       </button>
       <div class="collapse navbar-collapse" id="mainNavbar">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="index.html">Portada</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html">Portada</a></li>
           <li class="nav-item"><a class="nav-link" href="tiendas.html">Tiendas</a></li>
           <li class="nav-item"><a class="nav-link" href="restaurantes.html">Restaurantes</a></li>
           <li class="nav-item"><a class="nav-link" href="ocio.html">Ocio</a></li>
           <li class="nav-item"><a class="nav-link" href="cines.html">Cine</a></li>
           <li class="nav-item"><a class="nav-link" href="visitanos.html">Visítanos</a></li>
           <li class="nav-item"><a class="nav-link" href="registro.html">Registro</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="aviso-legal.html">Aviso Legal</a></li>
+          <li class="nav-item"><a class="nav-link" href="aviso-legal.html">Aviso Legal</a></li>
         </ul>
       </div>
     </div>
   </nav>
     
-    <article>
+    <article class="mb-4">
+        <div class="text-center">
+            <div>
+                <video src="imagenes/portada/video1.mp4" controls muted autoplay class="w-100 video-portada"> Video del CC </video>
+            </div>
+        </div>
+
+        <!-- CARACTERÍSTICAS -->
+        <div class="container my-5">
+            <div class="row text-left">
+                <div class="col-md-6 mb-6">
+                    <h3 class="display-6 fw-bold text-dark">Donde todo es posible</h3>
+                        <p>
+                            Muy pronto descubrirás un lugar en el que el aire, el agua y la vegetación se combinan con la 
+                            arquitectura más avanzada para crear un punto de encuentro abierto a todo tipo de personas y de experiencias.
+                        </p>
+                        <br>
+                </div>
+                <div class="col-md-6 mb-6">
+                    <h3 class="display-6 fw-bold text-dark">Espacio único</h3>
+                        <p>
+                            Más de 250.000 m2 de espacio al aire libre, 4.000 plazas de parking, 117 locales, ocio para todos los públicos, zonas verdes, 
+                            un mercado gastronómico, un gran lago central y hasta una playa te esperan en Torrejón de Ardoz, a 10 minutos de Madrid.
+                        </p>
+                        <br>
+                </div>
+                <div class="col-md-6 mb-6">
+                    <h3 class="display-6 fw-bold text-dark">Cultura en directo</h3>
+                        <p>
+                            Un escenario al aire libre para actuaciones y conciertos, una amplia programación cultural con exposiciones, ópera, zarzuela y mucho más.
+                        </p>
+                        <br>
+                </div>
+                <div class="col-md-6 mb-6">
+                    <h3 class="display-6 fw-bold text-dark">Tiendas, Restauración y Ocio</h3>
+                        <p>
+                            Oasiz Madrid ofrece moda, tecnología, hogar, restauración variada y ocio para todos, creando una experiencia completa y única en cada visita.
+                        </p>
+                        <br>
+                </div>
+            </div>   
+        </div>
+
         
-        <h1>Bienvenidos a Oasiz Madrid</h1>
-
-        <div>
-            <iframe 
-                width="560" height="315" 
-                src="https://www.youtube.com/embed/R1HzyhqtmG8?si=RMq_f85i4hbsRQ7Q" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> VIDEO DEL CC 
-            </iframe>
-            <iframe 
-                width="560" height="315" 
-                src="https://www.youtube.com/embed/JaYMuT79K8s?si=fhU7RkMCpA0aNRZ4" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> VIDEO DEL CC 
-            </iframe>
-        </div>
-
-        <div class="caracteristicas">
-            <h2>Donde todo es posible</h2>
-                <p>
-                    Muy pronto descubrirás un lugar en el que todo puede pasar. Donde el aire, el agua y la vegetación se combinan con la 
-                    arquitectura más avanzada para crear un punto de encuentro abierto a todo tipo de personas y de experiencias.
-                </p>
-
-            <h2>Un espacio único en Madrid</h2>
-                <p>
-                    Más de 250.000 m2 de espacio al aire libre, 4.000 plazas de parking, 117 locales, ocio para todos los públicos, zonas verdes, 
-                    un mercado gastronómico, un gran lago central y hasta una playa te esperan en Torrejón de Ardoz, a 10 minutos de Madrid.
-                </p>
-
-            <h2>Un lugar donde disfrutar de la cultura en directo</h2>
-                <p>
-                    Un escenario al aire libre para actuaciones y conciertos, una amplia programación cultural con exposiciones, ópera, zarzuela y mucho más.
-                </p>
-
-            <h2>Tiendas, Restauración y Ocio listo para para tí</h2>
-                <p>
-                    En Oasiz Madrid encontrarás un mundo de moda, tecnología y artículos para el hogar, con una variedad que satisface todas las necesidades y gustos. 
-                    Nuestra área de restauración te ofrece desde comida rápida hasta bufés, cubriendo una amplia gama para disfrutar de una comida relajada. El ocio aquí es diverso, 
-                    garantizando entretenimiento para todos. ¡Descubre todo lo que Oasiz te ofrece y vive momentos únicos en cada visita!
-                </p> 
-        </div>
-
-        <div class="presentacion">
-            <h2>Presentación</h2>
-        </div>
-
-        <div class="noticias">
-            <h2>Noticias</h2>
-
-            <h4>SORTEO PLAY STATION 5</h4>
-            <h5>🎮 ¿Ya has participado en el sorteo de la PlayStation 5?</h5>
-            <p>
-                ¡Aún estás a tiempo! El sorteo sigue activo, así que no pierdas la oportunidad.
-                Hasta el 4 de mayo continuamos con el sorteo de la PS5 solo tienes que presentar 
-                un ticket de compra de cualquier local de Oasiz-Madrid*, y si es superior a 40€ entra 
-                en el sorteo de una PS5.
-            </p>
-
-            <h4>JUEGA COMO UN PRO</h4>
-            <h5>🎮 Este fin de semana, Oasiz Madrid se convierte en el paraíso gamer 🎮</h5>
-            <p>
-                Prepárate para vivir una experiencia única con nuestro evento gamer del viernes 25 al domingo 27 de abril en Oasiz.
-                Ven a demostrar tus habilidades en la Arena de Juego, equipada con:
+        <!-- NOTICIAS -->
+        <div class="container my-5">
+            <h3 class="text-center display-6 fw-bold text-dark mb-2">Noticias</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 
-                🕹️ Ocho puestos profesionales sobre tótems retroiluminados
-                🎮 Consolas de última generación PlayStation 5
-                ⚽ El nuevo EA FC 25 como juego estrella
-                🪑 Sillas y pantallas gaming para una experiencia inmersiva total
-                🌿 Suelo tematizado con césped artificial que te hará sentir como en el estadio
-                
-                Horario: De 11:00 a 14:00h y de 15:00 a 21:00h 
-            </p>
+                <!-- Noticia 1 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imagenes/portada/noticia1.png" class="card-img-top" alt="Conciertos Candlelight">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">CANDLELIGHT EN OASIZ</h5>
+                            <p class="card-text">
+                                🎶 ¿Te gustaría vivir una noche mágica al aire libre?
+                                Los días 30 y 31 de mayo te esperamos en Oasiz para disfrutar de dos conciertos tributo gratuitos a Coldplay y Taylor Swift.
+                                Una experiencia única con la mejor música en directo… ¡y bajo las estrellas!
+                                No hace falta entrada, solo tienes que venir. ¡No te lo pierdas!</p>
+                        </div>
+                    </div>
+                </div>
 
-            <h4>COPA DEL REY</h4> 
-            <h5>¡Vive la Copa Del Rey en nuestra gran pantalla!</h5>
-            <p>
-                🏆 Vive la Final de la Copa del Rey en pantalla gigante en Oasiz Madrid 🏆 
+                <!-- Noticia 2 -->
+                <div class="col">
+                    <div class="card h-200">
+                        <img src="imagenes/portada/noticia2.png" class="card-img-top" alt="Sorteo PS5">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">SORTEO PLAY STATION 5</h5>
+                            <p class="card-text">
+                                🎮 ¿Ya has participado en el sorteo de la PlayStation 5?
+                                <br>
+                                ¡Aún estás a tiempo! El sorteo sigue activo, así que no pierdas la oportunidad.
+                                Hasta el 4 de mayo continuamos con el sorteo de la PS5 solo tienes que presentar 
+                                un ticket de compra de cualquier local de Oasiz-Madrid*, y si es superior a 40€ entra 
+                                en el sorteo de una PS5.</p>
+                        </div>
+                    </div>
+                </div>
 
-                El próximo sábado 26 de abril a las 22:00h, te esperamos en nuestro espectacular entorno del lago para disfrutar 
-                de un evento único:
-                ¡La gran final de la Copa del Rey en nuestra pantalla gigante!
-                
-                ⚽ Vive el fútbol a lo grande
-                📍 Ubicación inmejorable
-                🎉 Ambiente inigualable, entrada libre y gratuita
-                
-                Ven con tu familia o amigos, coge sitio y prepárate para disfrutar del mejor fútbol en una noche mágica. 
-            </p>
-
+                <!-- Noticia 3 -->
+                <div class="col">
+                    <div class="card h-200">
+                        <img src="imagenes/portada/noticia3.png" class="card-img-top" alt="Evento Gamer">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">JUEGA COMO UN PRO</h5>
+                            <p class="card-text">
+                                🎮 Este fin de semana, Oasiz Madrid se convierte en el paraíso gamer 🎮
+                                <br>
+                                Prepárate para vivir una experiencia única con nuestro evento gamer del viernes 25 al domingo 27 de abril en Oasiz.
+                                Ven a demostrar tus habilidades en la Arena de Juego <br>
+                                Horario: De 11:00 a 14:00h y de 15:00 a 21:00h 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="galeriaportada">
-            <h2>Galería de Imágenes</h2> 
-            <img src="imagenes/portada/portada1.jpg" alt="Zona de ocio en Oasiz">
-            <img src="imagenes/portada/portada2.jpg" alt="Vista general de Oasiz">
-            <img src="imagenes/portada/portada3.jpg" alt="Tiendas en Oasiz">
-            <img src="imagenes/portada/portada4.jpg" alt="Restaurantes y terrazas en Oasiz">
-        </div>
+        <div class="container my-5">
+            <h2 class="text-center display-6 fw-bold text-dark">Galería de Imágenes</h2>
+                <div id="galeriaCarouselPortada" class="carousel slide carousel-bg" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+                        </div>
 
+                        <div class="carousel-item active">
+                            <img src="imagenes/portada/portada1.jpg" class="d-block w-100" alt="Zona de ocio en Oasiz">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/portada/portada2.jpg" class="d-block w-100" alt="Vista general de Oasiz">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/portada/portada3.jpg" class="d-block w-100" alt="Tiendas en Oasiz">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/portada/portada4.jpg" class="d-block w-100" alt="Restaurantes y terrazas en Oasiz">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/portada/portada5.jpg" class="d-block w-100" alt="Restaurantes y terrazas en Oasiz">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/portada/portada6.jpg" class="d-block w-100" alt="Restaurantes y terrazas en Oasiz">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/portada/portada7.jpg" class="d-block w-100" alt="Restaurantes y terrazas en Oasiz">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/portada/portada8.jpg" class="d-block w-100" alt="Restaurantes y terrazas en Oasiz">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarouselPortada" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    
+                    <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarouselPortada" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+        </div>
     </article>
 
   <!-- Footer -->
@@ -141,6 +192,5 @@
     <p class="mb-1">&copy; 2025 Oasiz Madrid</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
