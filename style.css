@@ -196,6 +196,11 @@ body {
     margin: 0 auto;
 }
 
+#plano {
+    height: auto;
+    width: 100%;
+}
+
 /* REGISTRO */
 
 .obligatorio {
