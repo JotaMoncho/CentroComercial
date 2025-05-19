@@ -47,12 +47,29 @@ body {
 
 @media (min-width: 768px) {
     .video-portada {
-        height: 600px;
+        height: auto;
     }
 }
 
 
 /* TIENDAS */
+
+.imag-tiendas {
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+
+#adidasLogo, #nikeLogo, #pullLogo, 
+#mangoLogo, #springLogo, #fnacLogo {
+    height: 80px; 
+    object-fit: contain;
+}
+
+#imagenTienda{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
 
 
 /* RESTAURANTES */
@@ -60,6 +77,17 @@ body {
 .restaurante-imagen{
     border-radius: 0 !important;
     margin-bottom: 0;
+}
+
+#imagenLogo{
+    height: 80px; 
+    object-fit: contain;
+    cursor: pointer;
+}
+
+#imagenRestaurantes{
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 
 
@@ -97,10 +125,54 @@ body {
 
 /* CINE */
 
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
 .carousel-container {
     background: #222; 
     border-radius: 12px; 
     padding: 1.5rem 0;
+}
+
+.pelicula {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.pelicula h2 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.pelicula p {
+    margin-bottom: 10px;
+}
+
+.pelicula a {
+    display: inline-block;
+    color: #fff;
+    background-color: #0d6efd;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.pelicula a:hover {
+    background-color: #0b5ed7;
 }
 
 .carousel-prev, .carousel-next {
