@@ -41,7 +41,7 @@
 </header>
 
 <!-- RESTAURANTES -->
-<article class="container py-5">
+<article class="container py-5 mt-5 mb-4">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
     
     <!-- Brasa y Leña -->
@@ -50,7 +50,6 @@
         <a data-bs-toggle="modal" data-bs-target="#brasaylena">
           <img src="imagenes/restaurantes/logos/restaurante1.png" class="card-img-top p-3" id="imagenLogo" alt="Logo Brasa y Leña">
         </a>
-        <img src="imagenes/restaurantes/restaurante1.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="Brasa y Leña">
       </div>
     </div>
 
@@ -60,7 +59,6 @@
         <a data-bs-toggle="modal" data-bs-target="#lamafia">
           <img src="imagenes/restaurantes/logos/restaurante2.png" class="card-img-top p-3" id="imagenLogo" alt="Logo La Mafia">
         </a>
-        <img src="imagenes/restaurantes/restaurante2.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="La Mafia">
       </div>
     </div>
 
@@ -70,7 +68,6 @@
         <a data-bs-toggle="modal" data-bs-target="#grosso">
           <img src="imagenes/restaurantes/logos/restaurante3.png" class="card-img-top p-3" id="imagenLogo" alt="Logo Grosso Napoletano">
         </a>
-        <img src="imagenes/restaurantes/restaurante3.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="Grosso Napoletano">
       </div>
     </div>
 
@@ -80,7 +77,6 @@
         <a data-bs-toggle="modal" data-bs-target="#100montaditos">
           <img src="imagenes/restaurantes/logos/restaurante4.png" class="card-img-top p-3" id="imagenLogo" alt="Logo 100 Montaditos">
         </a>
-        <img src="imagenes/restaurantes/restaurante4.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="100 Montaditos">
       </div>
     </div>
 
@@ -90,7 +86,6 @@
         <a data-bs-toggle="modal" data-bs-target="#tacobell">
           <img src="imagenes/restaurantes/logos/restaurante5.png" class="card-img-top p-3" id="imagenLogo" alt="Logo Taco Bell">
         </a>
-        <img src="imagenes/restaurantes/restaurante5.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="Taco Bell">
       </div>
     </div>
 
@@ -100,7 +95,6 @@
         <a data-bs-toggle="modal" data-bs-target="#vips">
           <img src="imagenes/restaurantes/logos/restaurante6.png" class="card-img-top p-3" id="imagenLogo" alt="Logo VIPS Smart">
         </a>
-        <img src="imagenes/restaurantes/restaurante6.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="VIPS Smart">
       </div>
     </div>
   </div>
@@ -113,16 +107,17 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title fw-bold">Brasa y Leña</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body modal-text">
-                <div class="card-body">
-                  <p class="card-text">Auténtica experiencia de rodizio brasileño con carnes a la espada.</p>
-                  <p class="card-text"><small class="text-muted">Disfruta de un buffet libre servido en mesa, ideal para grupos y familias que buscan variedad
-                    y sabor intenso.</small></p>
+            <div class="modal-body">
+              <img src="imagenes/restaurantes/restaurante1.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="Brasa y Leña">
+              <h5 class="card-title fw-bold mb-3 mt-2">Horarios</h5>
+                  <p>
+                    Lunes a Domingos: 10:00 - 22:00
+                  </p>
+                  <p>Auténtica experiencia de rodizio brasileño con carnes a la espada. Disfruta de un buffet libre servido en mesa, ideal para grupos y familias que buscan variedad
+                    y sabor intenso.</p>
                   <a href="https://brasaylena.com/restaurantes/category/madrid-1/" target="_blank" class="btn btn-outline-primary">Visitar web</a>        
-                </div>
             </div>
         </div>
     </div>
@@ -132,34 +127,37 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title fw-bold">La Mafia</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body modal-text">
-                <div class="card-body">
-                  <p class="card-text">Cocina ítalo-mediterránea con ambiente elegante y moderno.</p>
-                  <p class="card-text"><small class="text-muted">Ideal para cenas románticas o comidas de negocio. Especialidad en pasta fresca y risottos
-                    gourmet.</small></p>
+            <div class="modal-body">
+              <img src="imagenes/restaurantes/restaurante2.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="La Mafia">
+              <h5 class="card-title fw-bold mb-3 mt-2">Horarios</h5>
+                  <p>
+                    Lunes a Domingos: 10:00 - 22:00
+                  </p>
+                  <p>Cocina ítalo-mediterránea con ambiente elegante y moderno. Ideal para cenas románticas o comidas de negocio. Especialidad en pasta fresca y risottos
+                    gourmet.</p>
                   <a href="https://lamafia.es/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
-                </div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="modal fade" id="grosso" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title fw-bold">Grosso Napoletano</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body modal-text">
-                <div class="card-body">
-                  <p class="card-text">Una de las mejores pizzas napolitanas de España.</p>
-                  <p class="card-text"><small class="text-muted">Pizza artesanal cocinada en horno de piedra con ingredientes auténticamente italianos.</small></p>
+            <div class="modal-body">
+              <img src="imagenes/restaurantes/restaurante3.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="Grosso Napoletano">
+              <h5 class="card-title fw-bold mb-3 mt-2">Horarios</h5>
+                  <p>
+                    Lunes a Domingos: 10:00 - 22:00
+                  </p>
+                  <p>Una de las mejores pizzas napolitanas de España. Pizza artesanal cocinada en horno de piedra con ingredientes 
+                    auténticamente italianos.</p>
                   <a href="https://www.grossonapoletano.com/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
-                </div>
             </div>
         </div>
     </div>
@@ -169,15 +167,17 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title fw-bold">100 Motaditos</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body modal-text">
-                <div class="card-body">
-                  <p class="card-text">La clásica cadena española de montaditos y tapas.</p>
-                  <p class="card-text"><small class="text-muted">Perfecto para picar entre amigos con promociones especiales como el “Euromanía”.</small></p>
+            <div class="modal-body">
+              <img src="imagenes/restaurantes/restaurante4.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="100 Montaditos">
+              <h5 class="card-title fw-bold mb-3 mt-2">Horarios</h5>
+                  <p>
+                    Lunes a Domingos: 10:00 - 22:00
+                  </p>
+                  <p>La clásica cadena española de montaditos y tapas. Perfecto para picar entre amigos con promociones especiales como el 
+                    “Euromanía”.</p>
                   <a href="https://spain.100montaditos.com/es/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
-                </div>
             </div>
         </div>
     </div>
@@ -187,16 +187,17 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title fw-bold">Taco Bell</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body modal-text">
-                <div class="card-body">
-                  <p class="card-text">Comida rápida de inspiración mexicana.</p>
-                  <p class="card-text"><small class="text-muted">Tacos, burritos, quesadillas y menús adaptados a todos los gustos, incluyendo opciones 
-                    vegetarianas.</small></p>
+            <div class="modal-body">
+              <img src="imagenes/restaurantes/restaurante5.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="Taco Bell">
+              <h5 class="card-title fw-bold mb-3 mt-2">Horarios</h5>
+                  <p>
+                    Lunes a Domingos: 10:00 - 22:00
+                  </p>
+                  <p>Comida rápida de inspiración mexicana. Tacos, burritos, quesadillas y menús adaptados a todos los gustos, incluyendo opciones 
+                    vegetarianas.</p>
                   <a href="https://tacobell.es/es/inicio" target="_blank" class="btn btn-outline-primary">Visitar web</a>
-                </div>
             </div>
         </div>
     </div>
@@ -206,15 +207,16 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title fw-bold">VIPS</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body modal-text">
-                <div class="card-body">
-                  <p class="card-text">Restaurante casual para desayunos, hamburguesas y más.</p>
-                  <p class="card-text"><small class="text-muted">Ambiente informal con platos clásicos, carta variada y opción de pedidos rápidos.</small></p>
+            <div class="modal-body">
+              <img src="imagenes/restaurantes/restaurante6.jpg" class="restaurante-imagen" id="imagenRestaurantes" alt="VIPS Smart">
+              <h5 class="card-title fw-bold mb-3 mt-2">Horarios</h5>
+                  <p>
+                    Lunes a Domingos: 10:00 - 22:00
+                  </p>
+                  <p>Restaurante casual para desayunos, hamburguesas y más. Ambiente informal con platos clásicos, carta variada y opción de pedidos rápidos.</p>
                   <a href="https://www.vips.es/" target="_blank" class="btn btn-outline-primary">Visitar web</a>
-                </div>
             </div>
         </div>
     </div>
