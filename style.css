@@ -209,6 +209,30 @@ body {
 
 /* AVISO LEGAL */
 
+.accordion-item {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  overflow: hidden; 
+  background-color: #fff; 
+}
+
+.accordion-button {
+  background-color: #fff;
+  border: none;
+  box-shadow: none;
+  border-radius: 0; 
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6; 
+}
+
+.accordion-body {
+  background-color: #fff;
+  padding: 1rem;
+}
+
 /* LOGOS ESTABLECIMIENTOS */
 
 .logo-container {
