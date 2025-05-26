@@ -26,8 +26,8 @@
                 <li class="nav-item"><a class="nav-link" href="ocio.html">Ocio</a></li>
                 <li class="nav-item"><a class="nav-link" href="cines.html">Cine</a></li>
                 <li class="nav-item"><a class="nav-link" href="visitanos.html">Visítanos</a></li>
-                <li class="nav-item"><a class="nav-link active" href="registro.html">Registro</a></li>
-                <li class="nav-item"><a class="nav-link" href="aviso-legal.html">Aviso Legal</a></li>
+                <li class="nav-item"><a class="nav-link" href="registro.html">Registro</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="aviso-legal.html">Aviso Legal</a></li>
                 </ul>
             </div>
             </div>
@@ -36,26 +36,26 @@
 
     <article class="container-fluid text-center">
         <br>
-        <h3 class="mb-4 fw-bold">Regístrate para acceder a más ventajas y estar al día de las novedades</h3>
+        <h5>Regístrate para acceder a más ventajas y estar al día de las novedades</h5>
 
         <div class="row justify-content-center">
             <div class="col-md-6 col-sm-10">
-                <form action="http://www.cursos-diseno.es/mostrar.php" class="bg-light p-3 border mx-auto">
+                <form action="http://www.cursos-diseno.es/mostrar.php">
 
-                    <h4 class="mt-2 mb-4 fw-bold">Datos de registro</h4>
+                    <br>
+                    <h5 class="titulo">Datos de registro</h5>
+                    <br>
 
-                    <div class="row row-cols-1 row-cols-lg-2">
-                        <div class="mb-3 text-start">
-                            Nombre<strong class="obligatorio"> *</strong>
-                            <input type="text" name="Nombre" class="form-control" required> 
-                        </div>
-                    
-                        <div class="mb-3 text-start">
-                            Apellidos<strong class="obligatorio"> *</strong>
-                            <input type="text" name="Apellidos" class="form-control" required> 
-                        </div>
+                    <div class="mb-3 text-start">
+                        Nombre<strong class="obligatorio"> *</strong>
+                        <input type="text" name="Nombre" class="form-control" required> 
                     </div>
-
+                
+                <div class="mb-3 text-start">
+                        Apellidos<strong class="obligatorio"> *</strong>
+                        <input type="text" name="Apellidos" class="form-control" required> 
+                    </div>
+                    
                     <div class="mb-3 text-start">
                         Dirección<strong class="obligatorio"> *</strong>
                         <input type="text" name="Dirección" placeholder="Calle, nº, piso..." class="form-control" required>
@@ -66,16 +66,14 @@
                         <input type="text" name="Código Postal" maxlength="5" class="form-control" required> 
                     </div>
 
-                    <div class="row row-cols-1 row-cols-lg-2">
-                        <div class="mb-3 text-start">
-                            Dirección de correo electrónico<strong class="obligatorio"> *</strong>
-                            <input type="email" name="email" id="email" placeholder="ejemplo@ejgmail.com" class="form-control" required>
-                        </div>
+                    <div class="mb-3 text-start">
+                        Dirección de correo electrónico<strong class="obligatorio"> *</strong>
+                        <input type="email" name="email" id="email" placeholder="ejemplo@ejgmail.com" class="form-control" required>
+                    </div>
 
-                        <div class="mb-3 text-start">
-                            Confirma el correo electrónico<strong class="obligatorio"> *</strong>
-                            <input type="email" name="Confirmar email" id="emailConfirm" placeholder="ejemplo@ejgmail.com" class="form-control" required>
-                        </div>
+                    <div class="mb-3 text-start">
+                        Confirma el correo electrónico<strong class="obligatorio"> *</strong>
+                        <input type="email" name="Confirmar email" id="emailConfirm" placeholder="ejemplo@ejgmail.com" class="form-control" required>
                     </div>
 
                     <div class="mb-3 text-start">
@@ -83,30 +81,25 @@
                         <input type="text" name="Teléfono" placeholder="+34 ... ..." class="form-control" required>
                     </div>
 
-                    <div class="mb-3 text-start form-floating">
-                        <textarea name="Comentarios" class="form-control" id="pass" placeholder="" required></textarea>
-                        <label for="pass">Comentarios</label>
+                    <div class="mb-3 text-start">
+                        Comentarios 
+                        <textarea name="comentarios" rows="5" class="form-control" required></textarea>
                     </div>
 
                     <div class="mb-3 text-start">
-                        <label class="form-check form-switch">
+                        <label class="form-check">
                         <input type="checkbox" name="Acepto" value="Si" class="form-check-input" required>
                             <strong> Acepto los términos y condiciones *</strong>
                     </div>
         
-                    <div class="mb-2 text-start">
-                        <label class="form-check form-switch">
+                    <div class="mb-3 text-start">
+                        <label class="form-check">
                         <input type="checkbox" name="Boletín" value="Si" class="form-check-input">
                             <strong>Quiero recibir noticias por e-mail</strong>
                         </label>
                     </div>
-                     
-                    <div class="text-start">
-                        <label class="obligatorio mb-4">* Campos obligatorios</label>
-                    </div>
-
-                    <input type="submit" class="btn btn-outline-dark">
-                    
+                    <br>    
+                    <input type="submit" class="btn btn-dark">
                 </form>
             </div>
         </div>

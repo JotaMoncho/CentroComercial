@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Quicksand:wght@300..700');
-/*font-family: font-family: 'Oooh Baby'; / font-family: 'Quicksand';*/
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Quicksand:wght@300..700');
+/*font-family: 'Delius Swash Caps'; / font-family: 'Noto Sans'; / font-family: 'Nunito'; / font-family: 'Oooh Baby'; / font-family: 'Quicksand';*/
 
 * {
     box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1, h2, h3, strong {
     font-family: 'Oooh Baby', sans-serif;
     font-weight: bold 400;
 }
@@ -15,7 +15,7 @@ h4, h5, h6 {
     font-weight: bold 300;
 }
 
-article, div, input, label {
+article, div {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -23,6 +23,14 @@ artcile, div p {
     color: lightslategray;
 }
 
+.restaurante-imagen{
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+.restaurante-imagen{
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
 body {
     margin: 0;
 }
@@ -79,27 +87,6 @@ body {
 
 /* RESTAURANTES */
 
-.restaurante-imagen{
-    border-radius: 0 !important;
-    margin-bottom: 0;
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    object-fit: contain;
-}
-
-#imagenLogo{
-    height: 80px; 
-    object-fit: contain;
-    cursor: pointer;
-}
-
-#imagenRestaurantes{
-    aspect-ratio: 16/9;
-    object-fit: cover;
-}
-
-
 /* OCIO */
 
 .logo-establecimiento {
@@ -134,68 +121,81 @@ body {
 
 /* CINE */
 
-.card {
-    transition: transform 0.2s;
+body {
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
-.card:hover {
-    transform: translateY(-5px);
+h1 {
+  margin-bottom: 30px;
 }
 
-.card-title {
-    color: #0d6efd;
-    margin-bottom: 1rem;
-}
-
+/* Estilos para el carrusel de películas */
 .carousel-container {
-    background: #222; 
-    border-radius: 12px; 
-    padding: 1.5rem 0;
+    position: relative;
+    max-width: 600px;
+    margin: 2rem auto; /* Centrar el carrusel */
+    overflow: hidden;
+    text-align: center;
 }
 
-.pelicula {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-    padding: 20px;
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 20px;
+    justify-content: center;
 }
 
-.pelicula h2 {
-    color: #0d6efd;
-    margin-bottom: 15px;
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.pelicula p {
-    margin-bottom: 10px;
+.carousel-poster {
+    height: auto;
+    max-height: 400px;
+    width: 100%;
+    max-width: 600px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    margin: 0 auto 1rem auto; /* Centrar horizontalmente */
 }
 
-.pelicula a {
-    display: inline-block;
-    color: #fff;
-    background-color: #0d6efd;
-    padding: 8px 16px;
-    border-radius: 4px;
-    text-decoration: none;
-    margin-top: 10px;
+.carousel-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
 }
 
-.pelicula a:hover {
-    background-color: #0b5ed7;
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 2rem;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
 }
 
-.carousel-prev, .carousel-next {
-    background:#0d6efd; 
-    color:white; 
-    border-radius:50%; 
-    width:48px; 
-    height:48px; 
-    left:10px;
+#prev {
+    left: 0;
 }
 
-.contenedor-cartelera {
-    border-radius: 18px; 
-    background: #f8f9fa;
+#next {
+    right: 0;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
 
 /* VISITANOS */
@@ -203,11 +203,6 @@ body {
 .welcome-text {
     max-width: 800px;
     margin: 0 auto;
-}
-
-#plano {
-    height: auto;
-    width: 100%;
 }
 
 /* REGISTRO */
@@ -258,8 +253,7 @@ body {
     padding: 1rem;
 }
 
-/* VARIANTE PEQUEÑA LOGOS */
-
+/* Smaller logo variant */
 .logo-container.small {
     height: 100px;
 }
