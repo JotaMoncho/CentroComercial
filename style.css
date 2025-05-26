@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Quicksand:wght@300..700');
-/*font-family: 'Delius Swash Caps'; / font-family: 'Noto Sans'; / font-family: 'Nunito'; / font-family: 'Oooh Baby'; / font-family: 'Quicksand';*/
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Quicksand:wght@300..700');
+/*font-family: font-family: 'Oooh Baby'; / font-family: 'Quicksand';*/
 
 * {
     box-sizing: border-box;
 }
 
-h1, h2, h3, strong {
+h1, h2, h3 {
     font-family: 'Oooh Baby', sans-serif;
     font-weight: bold 400;
 }
@@ -15,50 +15,20 @@ h4, h5, h6 {
     font-weight: bold 300;
 }
 
-article, div {
+article, div, input, label {
     font-family: 'Quicksand', sans-serif;
 }
 
-article, div p {
+artcile, div p {
     color: lightslategray;
 }
 
-.restaurante-imagen{
-    border-radius: 0 !important;
-    margin-bottom: 0;
-}
-.restaurante-imagen{
-    border-radius: 0 !important;
-    margin-bottom: 0;
-}
 body {
     margin: 0;
 }
 
-.imagenLogo img {
-  width: 200px;       
-  height: auto;       /* Mantiene proporciones */
-  display: block;
-  margin: auto;       /* Centra dentro del div si es necesario */
-}
-
-
-/*Tarjetas*/
-
-.card {
-    height: 30%;
-    text-align: center;
-}
-.card-img-top {
-    padding: 1rem; 
-}
 
 /* PORTADA - INDEX */
-
-.navbar-brand {
-  display: flex;
-  align-items: center;  /* Alinea verticalmente el logo con el texto si lo hubiera */
-}
 
 #galeriaCarouselPortada img {
     width: 100%;
@@ -81,26 +51,8 @@ body {
     }
 }
 
+
 /* TIENDAS */
-
-.mi-grid {
-  display: grid;
-  margin-bottom: 60px;
-  gap: 6rem; /* g-4 de Bootstrap = 24px */
-  grid-template-columns: repeat(1, 1fr); /* row-cols-1 */
-}
-
-@media (min-width: 576px) {
-  .mi-grid {
-    grid-template-columns: repeat(2, 1fr); /* row-cols-sm-2 */
-  }
-}
-
-@media (min-width: 768px) {
-  .mi-grid {
-    grid-template-columns: repeat(3, 1fr); /* row-cols-md-3 */
-  }
-}
 
 .imag-tiendas {
     border-radius: 0 !important;
@@ -126,6 +78,27 @@ body {
 
 
 /* RESTAURANTES */
+
+.restaurante-imagen{
+    border-radius: 0 !important;
+    margin-bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+#imagenLogo{
+    height: 80px; 
+    object-fit: contain;
+    cursor: pointer;
+}
+
+#imagenRestaurantes{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
 
 /* OCIO */
 
@@ -161,81 +134,68 @@ body {
 
 /* CINE */
 
-body {
-  background: #111;
-  color: white;
-  font-family: sans-serif;
-  text-align: center;
-  padding: 20px;
+.card {
+    transition: transform 0.2s;
 }
 
-h1 {
-  margin-bottom: 30px;
+.card:hover {
+    transform: translateY(-5px);
 }
 
-/* Estilos para el carrusel de películas */
+.card-title {
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
 .carousel-container {
-    position: relative;
-    max-width: 600px;
-    margin: 2rem auto; /* Centrar el carrusel */
-    overflow: hidden;
-    text-align: center;
+    background: #222; 
+    border-radius: 12px; 
+    padding: 1.5rem 0;
 }
 
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    gap: 20px;
-    justify-content: center;
+.pelicula {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
-.carousel-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.pelicula h2 {
+    color: #0d6efd;
+    margin-bottom: 15px;
 }
 
-.carousel-poster {
-    height: auto;
-    max-height: 400px;
-    width: 100%;
-    max-width: 600px;
-    object-fit: contain;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-    margin: 0 auto 1rem auto; /* Centrar horizontalmente */
+.pelicula p {
+    margin-bottom: 10px;
 }
 
-.carousel-title {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.2rem;
-    color: #333;
+.pelicula a {
+    display: inline-block;
+    color: #fff;
+    background-color: #0d6efd;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
 }
 
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    font-size: 2rem;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1;
+.pelicula a:hover {
+    background-color: #0b5ed7;
 }
 
-#prev {
-    left: 0;
+.carousel-prev, .carousel-next {
+    background:#0d6efd; 
+    color:white; 
+    border-radius:50%; 
+    width:48px; 
+    height:48px; 
+    left:10px;
 }
 
-#next {
-    right: 0;
-}
-
-button:hover {
-    background: rgba(255, 255, 255, 0.3);
+.contenedor-cartelera {
+    border-radius: 18px; 
+    background: #f8f9fa;
 }
 
 /* VISITANOS */
@@ -243,6 +203,11 @@ button:hover {
 .welcome-text {
     max-width: 800px;
     margin: 0 auto;
+}
+
+#plano {
+    height: auto;
+    width: 100%;
 }
 
 /* REGISTRO */
@@ -254,35 +219,28 @@ button:hover {
 /* AVISO LEGAL */
 
 .accordion {
-  gap: 1rem; /* Espacio entre los elementos del acordeón */
-  padding: 1rem; /* Espacio interno del acordeón */
+  gap: 1rem;
+  padding: 1rem; 
   bottom: 80px;
 }
 
 .accordion-item {
-  border: 1px solid #cfe2ff;
+  border: 1px solid #dee2e6;
   border-radius: 5px;
   overflow: hidden; 
-  background-color: #cfe2ff; 
+  background-color: #fff; 
 }
 
-/* Aplica el color de fondo y texto siempre */
 .accordion-button {
   background-color: #cfe2ff !important;
   color: #000 !important;
+  border-radius: 0; 
 }
 
-/* Cuando el botón está activo (abierto) */
 .accordion-button:not(.collapsed) {
   background-color: #cfe2ff !important;
   color: #000 !important;
-  box-shadow: none !important; /* opcional: evita el efecto de sombra */
-}
-
-/* Elimina borde y sombra al enfocar */
-.accordion-button:focus {
   box-shadow: none !important;
-  border-color: transparent !important;
 }
 
 .accordion-body {
@@ -306,7 +264,8 @@ button:hover {
     padding: 1rem;
 }
 
-/* Smaller logo variant */
+/* VARIANTE PEQUEÑA LOGOS */
+
 .logo-container.small {
     height: 100px;
 }
