@@ -19,7 +19,7 @@ article, div, input, label {
     font-family: 'Quicksand', sans-serif;
 }
 
-artcile, div p {
+article, div p {
     color: lightslategray;
 }
 
@@ -27,8 +27,30 @@ body {
     margin: 0;
 }
 
+.imagenLogo img {
+  width: 200px;       
+  height: auto;       /* Mantiene proporciones */
+  display: block;
+  margin: auto;       /* Centra dentro del div si es necesario */
+}
+
+
+/*Tarjetas*/
+
+.card {
+    height: 30%;
+    text-align: center;
+}
+.card-img-top {
+    padding: 1rem; 
+}
 
 /* PORTADA - INDEX */
+
+.navbar-brand {
+  display: flex;
+  align-items: center;  /* Alinea verticalmente el logo con el texto si lo hubiera */
+}
 
 #galeriaCarouselPortada img {
     width: 100%;
@@ -51,8 +73,26 @@ body {
     }
 }
 
-
 /* TIENDAS */
+
+.mi-grid {
+  display: grid;
+  margin-bottom: 60px;
+  gap: 6rem; /* g-4 de Bootstrap = 24px */
+  grid-template-columns: repeat(1, 1fr); /* row-cols-1 */
+}
+
+@media (min-width: 576px) {
+  .mi-grid {
+    grid-template-columns: repeat(2, 1fr); /* row-cols-sm-2 */
+  }
+}
+
+@media (min-width: 768px) {
+  .mi-grid {
+    grid-template-columns: repeat(3, 1fr); /* row-cols-md-3 */
+  }
+}
 
 .imag-tiendas {
     border-radius: 0 !important;
@@ -218,27 +258,40 @@ body {
 
 /* AVISO LEGAL */
 
+.accordion {
+  gap: 1rem; /* Espacio entre los elementos del acordeón */
+  padding: 1rem; /* Espacio interno del acordeón */
+  bottom: 80px;
+}
+
 .accordion-item {
-  border: 1px solid #dee2e6;
+  border: 1px solid #cfe2ff;
   border-radius: 5px;
   overflow: hidden; 
-  background-color: #fff; 
+  background-color: #cfe2ff; 
 }
 
+/* Aplica el color de fondo y texto siempre */
 .accordion-button {
-  background-color: #fff;
-  border: none;
-  box-shadow: none;
-  border-radius: 0; 
+  background-color: #cfe2ff !important;
+  color: #000 !important;
 }
 
+/* Cuando el botón está activo (abierto) */
 .accordion-button:not(.collapsed) {
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #dee2e6; 
+  background-color: #cfe2ff !important;
+  color: #000 !important;
+  box-shadow: none !important; /* opcional: evita el efecto de sombra */
+}
+
+/* Elimina borde y sombra al enfocar */
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
 }
 
 .accordion-body {
-  background-color: #fff;
+  background-color: #f8f9fa;
   padding: 1rem;
 }
 
