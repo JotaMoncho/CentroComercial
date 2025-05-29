@@ -217,15 +217,15 @@ body {
 }
 
 .accordion-button {
-  background-color: #fff;
-  border: none;
-  box-shadow: none;
+  background-color: #cfe2ff !important;
+  color: #000 !important;
   border-radius: 0; 
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #dee2e6; 
+  background-color: #cfe2ff !important;
+  color: #000 !important;
+  box-shadow: none !important;
 }
 
 .accordion-body {
