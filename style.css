@@ -6,8 +6,9 @@
 }
 
 .fondo-pantalla {
-   /*background-color: #f6f4e3;*/
    background-image: url('imagenes/portada/fondepantalla2.jpg');
+   background-repeat: no-repeat;         
+   background-size: cover;               
 }
 
 h1, h2, h3 {
@@ -25,11 +26,11 @@ article, div, input, label {
 }
 
 div p {
-    color: lightslategray;
+    color: rgb(86, 96, 105);
 }
 
 nav {
-   background-color: 	FAEBD7;
+   background-color: FAEBD7;
 }
 
 nav img {
@@ -42,6 +43,15 @@ nav img {
 
 body {
     margin: 0;
+}
+
+.barra {
+    border-top: 2px solid rgba(22, 56, 34, 0.4);
+    border-bottom: 2px solid rgba(22, 56, 34, 0.4) ;
+}
+
+.fondo-inicio {
+    background-color: #f7f4f4;
 }
 
 
@@ -212,20 +222,20 @@ body {
 }
 
 .accordion-item {
-  border: 1px solid #99c199;
+  border: 1px solid rgb(194, 224, 207);
   border-radius: 5px;
   overflow: hidden; 
-  background-color: #99c199 
+  background-color: rgb(194, 224, 207); 
 }
 
 .accordion-button {
-  background-color: #99c199 !important;
+  background-color: rgb(194, 224, 207) !important;
   color: #000 !important;
   border-radius: 0; 
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #99c199 !important;
+  background-color: rgb(194, 224, 207) !important;
   color: #000 !important;
   box-shadow: none !important;
 }
@@ -273,5 +283,6 @@ body {
 /* FOOTER */
 
 footer {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
     background-color:#8EBC8E;
 }
