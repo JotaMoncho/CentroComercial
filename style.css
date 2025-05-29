@@ -229,20 +229,20 @@ body {
 }
 
 .accordion-item {
-  border: 1px solid rgb(194, 224, 207);
+  border: 1px solid rgb(217, 247, 230);
   border-radius: 5px;
   overflow: hidden; 
-  background-color: rgb(194, 224, 207); 
+  background-color: rgb(217, 247, 230); 
 }
 
 .accordion-button {
-  background-color: rgb(194, 224, 207) !important;
+  background-color: rgb(217, 247, 230) !important;
   color: #000 !important;
   border-radius: 0; 
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: rgb(194, 224, 207) !important;
+  background-color: rgb(217, 247, 230) !important;
   color: #000 !important;
   box-shadow: none !important;
 }
