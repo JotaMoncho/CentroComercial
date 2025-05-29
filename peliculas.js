@@ -1,3 +1,6 @@
+
+// Carrusel Peliculas
+
 fetch('peliculas.json')
   .then(response => response.json())
   .then(peliculas => {
@@ -8,7 +11,7 @@ fetch('peliculas.json')
     const totalSlides = Math.ceil(peliculas.length / chunkSize);
 
     for (let i = 0; i < totalSlides; i++) {
-      // Crear botón indicador
+      // botones
       const indicator = document.createElement('button');
       indicator.type = 'button';
       indicator.setAttribute('data-bs-target', '#galeriaCarouselPortada');
@@ -16,7 +19,7 @@ fetch('peliculas.json')
       if (i === 0) indicator.classList.add('active');
       indicators.appendChild(indicator);
 
-      // Crear grupo de 3 películas
+      // 3 pelis
       const slide = document.createElement('div');
       slide.className = 'carousel-item' + (i === 0 ? ' active' : '');
 
