@@ -1,0 +1,65 @@
+[
+  {
+    "titulo": "Avatar",
+    "año": "2009",
+    "director": "James Cameron",
+    "sinopsis": "Un marine parapléjico enviado a la luna Pandora en una misión única se debate entre seguir órdenes y proteger el mundo que siente como su hogar.",
+    "poster": "https://pics.filmaffinity.com/Avatar-208925608-large.jpg"
+  },
+  {
+    "titulo": "Soy leyenda",
+    "año": "2007",
+    "director": "Francis Lawrence",
+    "sinopsis": "Años después de que una plaga mata a la mayor parte de la humanidad y transforma al resto en monstruos, el único superviviente en Nueva York lucha por encontrar una cura.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjcyOWYxNWYtNGU0ZC00ZWJhLThmZDktYmI1NzRmYjNkZjQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "titulo": "300",
+    "año": "2006",
+    "director": "Zack Snyder",
+    "sinopsis": "El rey Leónidas de Esparta y un ejército de 300 hombres combaten a los persas en la batalla de las Termópilas en el año 480 a.C.",
+    "poster": "https://pics.filmaffinity.com/300-177205452-large.jpg"
+  },
+  {
+    "titulo": "Los Vengadores",
+    "año": "2012",
+    "director": "Joss Whedon",
+    "sinopsis": "Los héroes más poderosos de la Tierra deben unirse para detener al travieso Loki y su ejército alienígena que buscan esclavizar a la humanidad.",
+    "poster": "https://es.web.img3.acsta.net/pictures/14/03/10/10/35/587504.jpg"
+  },
+  {
+    "titulo": "El lobo de Wall Street",
+    "año": "2013",
+    "director": "Martin Scorsese",
+    "sinopsis": "Basada en la historia real de Jordan Belfort, desde su ascenso como corredor de bolsa millonario hasta su caída por corrupción y fraude.",
+    "poster": "https://es.web.img3.acsta.net/pictures/210/615/21061596_20131129121836144.jpg"
+  },
+  {
+    "titulo": "Interestelar",
+    "año": "2014",
+    "director": "Christopher Nolan",
+    "sinopsis": "Un grupo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por asegurar la supervivencia de la humanidad.",
+    "poster": "https://pics.filmaffinity.com/Interstellar-366875261-large.jpg"
+  },
+  {
+    "titulo": "Doctor Strange",
+    "año": "2016",
+    "director": "Scott Derrickson",
+    "sinopsis": "Después de que su carrera es destruida, un brillante pero arrogante cirujano encuentra una nueva oportunidad cuando una hechicera lo entrena para defender al mundo del mal.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDdiNDg0ZTYtYWQ3MC00ZTMxLTlkYmMtMWU1M2Q2MDY1NmVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "titulo": "Rogue One: Una historia de Star Wars",
+    "año": "2016",
+    "director": "Gareth Edwards",
+    "sinopsis": "La Rebelión realiza una peligrosa misión para robar los planos de la Estrella de la Muerte, preparando el escenario para la saga épica que sigue.",
+    "poster": "https://pics.filmaffinity.com/Rogue_One_Una_historia_de_Star_Wars-635726332-large.jpg"
+  },
+  {
+    "titulo": "Assassin's Creed",
+    "año": "2016",
+    "director": "Justin Kurzel",
+    "sinopsis": "Callum Lynch revive las memorias de su ancestro Aguilar y descubre que es descendiente de una sociedad secreta de asesinos.",
+    "poster": "https://pics.filmaffinity.com/Assassin_s_Creed-271195640-large.jpg"
+  }
+]

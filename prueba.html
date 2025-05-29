@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Listado de Películas</title>
+  <style>
+    /* CINE */
+    #contenedor-peliculas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .pelicula {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px;
+      width: 280px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .pelicula img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .pelicula h2 {
+      font-size: 1.2em;
+      margin: 10px 0 5px;
+    }
+
+    .pelicula p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Listado de Películas</h1>
+  <div id="contenedor-peliculas"></div>
+
+  <script>
+    // Simulamos el contenido del JSON directamente en JS
+    const peliculas = [
+      {
+        "titulo": "Avatar",
+        "año": "2009",
+        "director": "James Cameron",
+        "sinopsis": "Un marine parapléjico enviado a la luna Pandora en una misión única se debate entre seguir órdenes y proteger el mundo que siente como su hogar.",
+        "poster": "https://pics.filmaffinity.com/Avatar-208925608-large.jpg"
+      },
+      {
+        "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+        "año": "2001",
+        "director": "Peter Jackson",
+        "sinopsis": "Un joven hobbit debe destruir un poderoso anillo antes de que caiga en manos del mal.",
+        "poster": "https://pics.filmaffinity.com/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring-291122116-large.jpg"
+      }
+    ];
+
+    const contenedor = document.getElementById('contenedor-peliculas');
+
+    peliculas.forEach(pelicula => {
+      const div = document.createElement('div');
+      div.className = 'pelicula';
+      div.innerHTML = `
+        <img src="${pelicula.poster}" alt="${pelicula.titulo}">
+        <h2>${pelicula.titulo} (${pelicula.año})</h2>
+        <p><strong>Director:</strong> ${pelicula.director}</p>
+        <p>${pelicula.sinopsis}</p>
+      `;
+      contenedor.appendChild(div);
+    });
+  </script>
+</body>
+</html>
