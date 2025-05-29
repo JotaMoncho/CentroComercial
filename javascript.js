@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+/*
 // Ejemplo de abrir modal con JS puro
 document.querySelectorAll('.logo-container a').forEach(link => {
   link.addEventListener('click', function (e) {
@@ -76,7 +77,8 @@ document.addEventListener('DOMContentLoaded', function () {
             })
             .catch(error => console.error('Error loading JSON:', error));
     }
-});
+});*/
+
 
 // Carrusel Peliculas
 

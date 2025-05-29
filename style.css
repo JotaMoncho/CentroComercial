@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.fondo-pantalla {
+   /*background-color: #f6f4e3;*/
+   background-image: url('imagenes/portada/fondepantalla2.jpg');
+}
+
 h1, h2, h3 {
     font-family: 'Oooh Baby', sans-serif;
     font-weight: bold 400;
@@ -21,6 +26,18 @@ article, div, input, label {
 
 div p {
     color: lightslategray;
+}
+
+nav {
+   background-color: 	FAEBD7;
+}
+
+nav img {
+    width: 200px;       
+    height: auto;       
+    display: block;
+    margin: auto; 
+    filter: drop-shadow(6px 1px 2px rgba(1, 29, 7, 0.7));
 }
 
 body {
@@ -78,7 +95,6 @@ body {
     aspect-ratio: 16/9;
     object-fit: cover;
 }
-
 
 
 /* RESTAURANTES */
@@ -203,20 +219,20 @@ body {
 }
 
 .accordion-item {
-  border: 1px solid #dee2e6;
+  border: 1px solid #99c199;
   border-radius: 5px;
   overflow: hidden; 
-  background-color: #fff; 
+  background-color: #99c199 
 }
 
 .accordion-button {
-  background-color: #cfe2ff !important;
+  background-color: #99c199 !important;
   color: #000 !important;
   border-radius: 0; 
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #cfe2ff !important;
+  background-color: #99c199 !important;
   color: #000 !important;
   box-shadow: none !important;
 }
@@ -259,4 +275,10 @@ body {
 
 .modal-text p, .modal-text li {
     color: #000000 !important;
+}
+
+/* FOOTER */
+
+footer {
+    background-color:#8EBC8E;
 }
