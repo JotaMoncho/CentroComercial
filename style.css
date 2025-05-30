@@ -47,7 +47,11 @@ body {
 
 .barra {
     border-top: 2px solid rgba(22, 56, 34, 0.4);
-    border-bottom: 2px solid rgba(22, 56, 34, 0.4) ;
+    border-bottom: 2px solid rgba(22, 56, 34, 0.4);
+}
+
+.barra2 {
+    border-bottom: 2px solid rgba(22, 56, 34, 0.4);
 }
 
 .fondo-inicio {
@@ -223,20 +227,20 @@ body {
 }
 
 .accordion-item {
-  border: 1px solid rgb(217, 247, 230);
+  border: 1px solid rgb(232, 233, 204);
   border-radius: 5px;
   overflow: hidden; 
-  background-color: rgb(217, 247, 230); 
+  background-color: rgb(232, 233, 204); 
 }
 
 .accordion-button {
-  background-color: rgb(217, 247, 230) !important;
+  background-color: rgb(232, 233, 204) !important;
   color: #000 !important;
   border-radius: 0; 
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: rgb(217, 247, 230) !important;
+  background-color: rgb(232, 233, 204) !important;
   color: #000 !important;
   box-shadow: none !important;
 }

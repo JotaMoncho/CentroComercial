@@ -54,8 +54,9 @@ fetch('peliculas.json')
           <div class="card mb-4">
             <img src="${pelicula.poster}" class="card-img-top" alt="${pelicula.titulo}">
             <div class="card-body text-center">
-              <h5 class="card-title">${pelicula.titulo} (${pelicula.año})</h5>
-              <p class="card-text">${pelicula.director}</p>
+              <h5 class="fw-bold text-dark barra2">${pelicula.titulo}</h5>
+              <p class="card-text mb-1">Año: ${pelicula.año}</p>
+              <p class="card-text">Director: ${pelicula.director}</p>
             </div>
           </div>
         `;
