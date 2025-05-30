@@ -2,8 +2,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="shortcut icon" href="imagenes/portada/oLogo.png">
     <link rel="stylesheet" href="style.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript.js"></script>
     <title>Ocio</title>
@@ -37,57 +39,57 @@
     </div>
   </nav>
     
-<!-- Cabecera -->
-<header class="fondo-inicio py-4 text-center barra">
-  <div class="container">
-    <h1 class="display-5 fw-bold text-dark">Experiencias en Oasiz Madrid</h1>
-    <p class="lead">Haz clic en los logos para obtener más información sobre cada tienda.</p>
-  </div>
-</header>
-
-<!-- EXPERIENCIAS -->
-<article class="container py-5 mt-5 mb-4">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-
-  <!-- La Playa -->
-    <div class="col mb-4">
-      <div class="card h-100 tarjeta shadow">
-        <a data-bs-toggle="modal" data-bs-target="#modalPlaya">
-          <img src="imagenes/logos/ElEden.webp" class="card-img-top p-3" id="imagenLogo" alt="La Playa Section Logo">
-        </a>
-      </div>
+  <!-- Cabecera -->
+  <header class="fondo-inicio py-4 text-center barra">
+    <div class="container">
+      <h1 class="display-5 fw-bold text-dark">Experiencias en Oasiz Madrid</h1>
+      <p class="lead">Haz clic en los logos para obtener más información sobre cada tienda.</p>
     </div>
+  </header>
 
+  <!-- EXPERIENCIAS -->
+  <article class="container py-5 mt-5 mb-4">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
 
-  <!-- El Paseo -->
-    <div class="col mb-4">
-      <div class="card h-100 tarjeta shadow">
-        <a data-bs-toggle="modal" data-bs-target="#modalPaseo">
-          <img src="imagenes/logos/HMS.png" class="card-img-top p-3" id="imagenLogo" alt="El Paseo Section Logo">
-        </a>
-      </div>
-    </div>
-
-  <!-- Motocrossity -->
-    <div class="col mb-4">
-      <div class="card h-100 tarjeta shadow">
-        <a data-bs-toggle="modal" data-bs-target="#modalMotocrossity">
-          <img src="imagenes/logos/Motocrossity.png" class="card-img-top p-3" id="imagenLogo" alt="Motocrossity Logo">
-        </a>
-      </div>
-    </div>
-
-  <!-- Jump Yard -->
+    <!-- La Playa -->
       <div class="col mb-4">
         <div class="card h-100 tarjeta shadow">
-          <a data-bs-toggle="modal" data-bs-target="#modalJump">
-            <img src="imagenes/logos/JumpYard.png" class="card-img-top p-3" id="imagenLogo" alt="Jump Yard Logo">
+          <a data-bs-toggle="modal" data-bs-target="#modalPlaya">
+            <img src="imagenes/logos/ElEden.webp" class="card-img-top p-3" id="imagenLogo" alt="La Playa Section Logo">
           </a>
         </div>
       </div>
 
 
-        <!-- Speed Park --> 
+    <!-- El Paseo -->
+      <div class="col mb-4">
+        <div class="card h-100 tarjeta shadow">
+          <a data-bs-toggle="modal" data-bs-target="#modalPaseo">
+            <img src="imagenes/logos/HMS.png" class="card-img-top p-3" id="imagenLogo" alt="El Paseo Section Logo">
+          </a>
+        </div>
+      </div>
+
+    <!-- Motocrossity -->
+      <div class="col mb-4">
+        <div class="card h-100 tarjeta shadow">
+          <a data-bs-toggle="modal" data-bs-target="#modalMotocrossity">
+            <img src="imagenes/logos/Motocrossity.png" class="card-img-top p-3" id="imagenLogo" alt="Motocrossity Logo">
+          </a>
+        </div>
+      </div>
+
+    <!-- Jump Yard -->
+        <div class="col mb-4">
+          <div class="card h-100 tarjeta shadow">
+            <a data-bs-toggle="modal" data-bs-target="#modalJump">
+              <img src="imagenes/logos/JumpYard.png" class="card-img-top p-3" id="imagenLogo" alt="Jump Yard Logo">
+            </a>
+          </div>
+        </div>
+
+
+    <!-- Speed Park --> 
       <div class="col mb-4">
         <div class="card h-100 tarjeta shadow">
           <a data-bs-toggle="modal" data-bs-target="#modalSpeed">
@@ -97,7 +99,7 @@
       </div>
 
 
-        <!-- VR Airsoft --> 
+    <!-- VR Airsoft --> 
       <div class="col mb-4">
         <div class="card h-100 tarjeta shadow">
           <a data-bs-toggle="modal" data-bs-target="#modalVr">
@@ -105,7 +107,6 @@
           </a>
         </div>
       </div>
-
   </article>
 
   <!-- MODALES -->
@@ -135,7 +136,7 @@
       </div>
     </div>
 
-      <!-- El Paseo -->
+  <!-- El Paseo -->
     <div class="modal fade" id="modalPaseo" aria-labelledby="modalPaseoLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -159,7 +160,7 @@
       </div>
     </div>
 
-      <!-- Motocrossity -->
+  <!-- Motocrossity -->
     <div class="modal fade" id="modalMotocrossity" aria-labelledby="modalMotocrossity" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -181,7 +182,7 @@
       </div>
     </div>
 
-    <!-- Jump Yard -->
+  <!-- Jump Yard -->
     <div class="modal fade" id="modalJump" aria-labelledby="modalJumpLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -203,7 +204,7 @@
       </div>
     </div>
 
-    <!-- Speed Park -->
+  <!-- Speed Park -->
     <div class="modal fade" id="modalSpeed" aria-labelledby="modalSpeedLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -226,7 +227,7 @@
       </div>
     </div>
 
-    <!-- VR Airsoft -->
+  <!-- VR Airsoft -->
     <div class="modal fade" id="modalVr" aria-labelledby="modalVrLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -248,9 +249,15 @@
       </div>
     </div>
 
-<!-- Footer -->
-<footer class="text-dark text-center py-4">
-  <p class="mb-1">&copy; 2025 Oasiz Madrid</p>
-</footer>
+  <!-- Footer -->
+  <footer class="text-dark text-center py-4">
+    <p class="mb-1">&copy; 2025 Oasiz Madrid</p>
+    <div class="text-center social">
+            <a href="https://oasizmadrid.com/" target="_blank"><i class="fa-solid fa-globe"></i> Página oficial</a>
+            <a href="https://www.facebook.com/Oasiz.madriz" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            <a href="https://www.instagram.com/oasizmadrid/#" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://www.linkedin.com/company/oasizmadrid" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+        </div>
+  </footer>
 </body>
 </html>

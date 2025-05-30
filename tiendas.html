@@ -2,8 +2,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="shortcut icon" href="imagenes/portada/oLogo.png">
     <link rel="stylesheet" href="style.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript.js"></script>
     <title>Tiendas</title>
@@ -11,7 +13,7 @@
 
 <body class="fondo-pantalla">
 
-<!-- Navegador -->
+  <!-- Navegador -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="index.html">
@@ -37,57 +39,57 @@
     </div>
   </nav>
 
-<!-- Cabecera -->
-<header class="fondo-inicio py-4 text-center barra">
-  <div class="container">
-    <h1 class="display-5 fw-bold text-dark">Tiendas del Centro Comercial Oasis</h1>
-    <p class="lead">Haz clic en los logos para obtener más información sobre cada tienda.</p>
-  </div>
-</header>
+  <!-- Cabecera -->
+  <header class="fondo-inicio py-4 text-center barra">
+    <div class="container">
+      <h1 class="display-5 fw-bold text-dark">Tiendas del Centro Comercial Oasis</h1>
+      <p class="lead">Haz clic en los logos para obtener más información sobre cada tienda.</p>
+    </div>
+  </header>
 
-<!-- TIENDAS -->
-<article class="container py-5 mt-5 mb-4">
+  <!-- TIENDAS -->
+  <article class="container py-5 mt-5 mb-4">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
 
-  <!-- Adidas -->
-    <div class="col mb-4">
-      <div class="card tarjeta shadow">
-        <a data-bs-toggle="modal" data-bs-target="#modalAdidas">
-          <img src="imagenes/logos/Adidas.webp" class="card-img-top p-3" id="adidasLogo" alt="Adidas Logo">
-        </a>
-      </div>
-    </div>
-
-
-  <!-- Nike -->
-    <div class="col mb-4">
-      <div class="card h-100 tarjeta shadow">
-        <a data-bs-toggle="modal" data-bs-target="#modalNike">
-          <img src="imagenes/logos/Nike.webp" class="card-img-top p-3" id="nikeLogo" alt="Nike Logo">
-        </a>
-      </div>
-    </div>
-
-  <!-- Pull&Bear -->
-    <div class="col mb-4">
-      <div class="card h-100 tarjeta shadow">
-        <a data-bs-toggle="modal" data-bs-target="#modalPull&Bear">
-          <img src="imagenes/logos/Pull&Bear.webp" class="card-img-top p-3" id="pullLogo" alt="Pull&Bear Logo">
-        </a>
-      </div>
-    </div>
-
-  <!-- Mango -->
-      <div class="col mb-4">
-        <div class="card h-100 tarjeta shadow">
-          <a data-bs-toggle="modal" data-bs-target="#modalMango">
-            <img src="imagenes/logos/Mango.webp" class="card-img-top p-3" id="mangoLogo" alt="Mango Logo">
-          </a>
+      <!-- Adidas -->
+        <div class="col mb-4">
+          <div class="card tarjeta shadow">
+            <a data-bs-toggle="modal" data-bs-target="#modalAdidas">
+              <img src="imagenes/logos/Adidas.webp" class="card-img-top p-3" id="adidasLogo" alt="Adidas Logo">
+            </a>
+          </div>
         </div>
-      </div>
 
 
-        <!-- Springfield --> 
+      <!-- Nike -->
+        <div class="col mb-4">
+          <div class="card h-100 tarjeta shadow">
+            <a data-bs-toggle="modal" data-bs-target="#modalNike">
+              <img src="imagenes/logos/Nike.webp" class="card-img-top p-3" id="nikeLogo" alt="Nike Logo">
+            </a>
+          </div>
+        </div>
+
+      <!-- Pull&Bear -->
+        <div class="col mb-4">
+          <div class="card h-100 tarjeta shadow">
+            <a data-bs-toggle="modal" data-bs-target="#modalPull&Bear">
+              <img src="imagenes/logos/Pull&Bear.webp" class="card-img-top p-3" id="pullLogo" alt="Pull&Bear Logo">
+            </a>
+          </div>
+        </div>
+
+      <!-- Mango -->
+          <div class="col mb-4">
+            <div class="card h-100 tarjeta shadow">
+              <a data-bs-toggle="modal" data-bs-target="#modalMango">
+                <img src="imagenes/logos/Mango.webp" class="card-img-top p-3" id="mangoLogo" alt="Mango Logo">
+              </a>
+            </div>
+          </div>
+
+
+      <!-- Springfield --> 
       <div class="col mb-4">
         <div class="card h-100 tarjeta shadow">
           <a data-bs-toggle="modal" data-bs-target="#modalSpringfield">
@@ -97,7 +99,7 @@
       </div>
 
 
-        <!-- FNAC --> 
+      <!-- FNAC --> 
       <div class="col mb-4">
         <div class="card h-100 tarjeta shadow">
           <a data-bs-toggle="modal" data-bs-target="#modalFnac">
@@ -105,7 +107,6 @@
           </a>
         </div>
       </div>
-
   </article>
 
 <!-- MODALES -->
@@ -135,7 +136,7 @@
       </div>
     </div>
 
-      <!-- Nike -->
+  <!-- Nike -->
     <div class="modal fade" id="modalNike" aria-labelledby="modalNikeLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -161,7 +162,7 @@
       </div>
     </div>
 
-      <!-- Pull&Bear -->
+  <!-- Pull&Bear -->
     <div class="modal fade" id="modalPull&Bear" aria-labelledby="modalPull&BearLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -187,7 +188,7 @@
       </div>
     </div>
 
-    <!-- Mango -->
+  <!-- Mango -->
     <div class="modal fade" id="modalMango" aria-labelledby="modalMangoLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -212,7 +213,7 @@
       </div>
     </div>
 
-    <!-- Springfield -->
+  <!-- Springfield -->
     <div class="modal fade" id="modalSpringfield" aria-labelledby="modalSpringfieldLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -236,7 +237,7 @@
       </div>
     </div>
 
-    <!-- Fnac -->
+  <!-- Fnac -->
     <div class="modal fade" id="modalFnac" aria-labelledby="modalFnacLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -260,9 +261,15 @@
       </div>
     </div>
 
-<!-- Footer -->
-<footer class="text-dark text-center py-4">
-  <p class="mb-1">&copy; 2025 Oasiz Madrid</p>
-</footer>
+  <!-- Footer -->
+  <footer class="text-dark text-center py-4">
+    <p class="mb-1">&copy; 2025 Oasiz Madrid</p>
+    <div class="text-center social">
+            <a href="https://oasizmadrid.com/" target="_blank"><i class="fa-solid fa-globe"></i> Página oficial</a>
+            <a href="https://www.facebook.com/Oasiz.madriz" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            <a href="https://www.instagram.com/oasizmadrid/#" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://www.linkedin.com/company/oasizmadrid" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+        </div>
+  </footer>
 </body>
 </html>
