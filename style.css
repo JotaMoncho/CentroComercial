@@ -170,6 +170,25 @@ body {
   justify-content: center;
 }
 
+  .btn-cine {
+    color: #8EBC8E;
+    border: 3px solid #8EBC8E;
+    border-radius: 12px;
+    outline: none;
+    box-shadow: none;
+    padding: 7px 15px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .btn-cine:hover {
+    background-color: #8EBC8E;
+    color: white;
+  }
+
 .pelicula {
   background-color: #fff;
   border: 1px solid #ccc;
