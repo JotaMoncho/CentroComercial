@@ -38,7 +38,7 @@ nav img {
     height: auto;       
     display: block;
     margin: auto; 
-    filter: drop-shadow(6px 1px 2px rgba(1, 29, 7, 0.7));
+    filter: drop-shadow(4px 1px 2px rgba(1, 29, 7, 0.8));
 }
 
 body {
@@ -197,7 +197,7 @@ body {
 }
 
 .recuadro {
-    border: 2px solid #000000c1;
+    border: 3 px solid #000000c1;
     border-radius: 5px;
 }
 
