@@ -66,6 +66,7 @@ body {
     height: 600px;
     aspect-ratio: 16/9;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .video-portada {
@@ -166,6 +167,7 @@ body {
     line-height: 1.6;
 }
 
+
 /* CINE */
 
 #contenedor-peliculas {
@@ -174,7 +176,7 @@ body {
   justify-content: center;
 }
 
-  .btn-cine {
+.btn-cine {
     color: #8EBC8E;
     border: 3px solid #8EBC8E;
     border-radius: 12px;
@@ -187,11 +189,22 @@ body {
     text-decoration: none;
     background-color: transparent;
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  .btn-cine:hover {
+}
+
+.btn-cine:hover {
     background-color: #8EBC8E;
     color: white;
-  }
+}
+
+.recuadro {
+    border: 2px solid #000000c1;
+    border-radius: 5px;
+}
+
+#carousel-indicators {
+    display: none !important; 
+}
+
 
 /* VISITANOS */
 
@@ -212,11 +225,13 @@ body {
     width: 100%;
 }
 
+
 /* REGISTRO */
 
 .obligatorio {
     color: red;
 }
+
 
 /* AVISO LEGAL */
 
@@ -250,6 +265,7 @@ body {
   padding: 1rem;
 }
 
+
 /* LOGOS ESTABLECIMIENTOS */
 
 .logo-container {
@@ -265,6 +281,7 @@ body {
     object-fit: contain;
     padding: 1rem;
 }
+
 
 /* VARIANTE PEQUEÑA LOGOS */
 
@@ -284,6 +301,7 @@ body {
 .modal-text p, .modal-text li {
     color: #000000 !important;
 }
+
 
 /* FOOTER */
 
